@@ -1,0 +1,57 @@
+{
+    "vehicles" : [
+        {
+            "id": 1,
+            "make": "Ford",
+            "model": "Mustang Ecoboost",
+            "year": 2018,
+            "color": "White",
+            "milleage": 115000,
+            "images" : [
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-1.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-2.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "make": "Ford",
+            "model":"Mustang Ecoboost",
+            "year": 2019,
+            "color": "Red",
+            "milleage": 43000,
+            "images": [
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-1.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-2.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-3.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "make": "Porsche",
+            "model": "Macan Base",
+            "year": 2018,
+            "color": "Blue",
+            "milleage": 95000,
+            "images" : [
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-1.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-2.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "make": "Volskwagen",
+            "model": "Golf MK7 GTI",
+            "year": 2018,
+            "color": "Blue",
+            "milleage": 55000,
+            "images" : [
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-1.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-2.jpg",
+                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-3.jpg"
+            ]
+        }
+    ]
+}

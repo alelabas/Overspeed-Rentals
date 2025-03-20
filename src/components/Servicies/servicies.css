@@ -1,0 +1,54 @@
+.servicies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.101);
+}
+
+.servicies h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.servicies-container{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.44);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.362);
+    border-radius: 10px;
+}
+
+.service-container h3, p{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.service-container h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.service-container p{
+    font-size: 16px;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.142);
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.service-container img{
+    width: 50%;
+}

@@ -1,0 +1,118 @@
+.rent{
+    display: flex;
+    flex-flow: column;
+    padding-left: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url("../../assets/mustang-blanco-1.jpg");
+    height: 300px;
+}
+
+.rent::before{
+    background-size: cover;
+    filter: blur(10px);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.rent h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.rent .form{
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:    10px;
+}
+
+.form-top{
+    display: flex;
+    align-items: center;
+}
+
+.form-top > img{
+    width: 30px;
+}
+
+.label-search{
+    font-size: 1.4rem;
+    margin-right: 20px;
+    font-weight: 600;
+    padding: 14px;
+}
+
+.label-date{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 14px;
+}
+
+.input-search{
+    width: 800px;
+    border: 2px solid #bfbfbf;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    height: 35px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.input-search:focus{
+    border-color: #848484;
+}
+
+.input-search::placeholder{
+    font-style: italic;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: column wrap;
+    gap: 10px;
+}
+
+.input-date{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.date-container > span > img{
+    width: 25px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.span-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-button{
+    border: 2px solid #bfbfbf;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+    padding: 0px 30px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.input-button:hover{
+    background-color: #dbdbdb;
+    transition: all 0.3s ease-in-out;
+}
