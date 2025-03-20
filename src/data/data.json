@@ -8,9 +8,9 @@
             "color": "White",
             "milleage": 115000,
             "images" : [
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-1.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-2.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-3.jpg"
+                "/src/assets/CarImages/mustang-blanco-1.jpg",
+                "/src/assets/CarImages/mustang-blanco-2.jpg",
+                "/src/assets/CarImages/mustang-blanco-3.jpg"
             ]
         },
         {
@@ -21,10 +21,11 @@
             "color": "Red",
             "milleage": 43000,
             "images": [
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-1.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-2.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-3.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-rojo-4.jpg"
+                "/src/assets/CarImages/mustang-rojo-1.jpg",
+                "/src/assets/CarImages/mustang-rojo-2.jpg",
+                "/src/assets/CarImages/mustang-rojo-3.jpg",
+                "/src/assets/CarImages/mustang-rojo-4.jpg"
+
             ]
         },
         {
@@ -35,9 +36,9 @@
             "color": "Blue",
             "milleage": 95000,
             "images" : [
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-1.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-2.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-3.jpg"
+                "/src/assets/CarImages/mustang-blanco-2.jpg",
+                "/src/assets/CarImages/mustang-blanco-2.jpg",
+                "/src/assets/CarImages/mustang-blanco-2.jpg"
             ]
         },
         {
@@ -48,9 +49,7 @@
             "color": "Blue",
             "milleage": 55000,
             "images" : [
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-1.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-2.jpg",
-                "C:\\Users\\ALELA\\Desktop\\Overspeed website\\Overspeed Rentals\\src\\assets\\mustang-blanco-3.jpg"
+                "/src/assets/CarImages/mustang-blanco-3.jpg"
             ]
         }
     ]

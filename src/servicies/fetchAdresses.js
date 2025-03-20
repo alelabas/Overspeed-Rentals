@@ -5,7 +5,7 @@ export const addressSearch = async () => {
         const results = await fetch(API_URL)
         const parsedResults = await results.json()
 
-        const addresses = parsedResults.features.slice(0, 20)
+        const addresses = parsedResults.features
 
         return addresses.map(address => ({
             id: address.attributes.OBJECTID,

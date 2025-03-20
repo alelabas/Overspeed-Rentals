@@ -7,32 +7,47 @@ export default function Rent() {
 	const [filteredOptions, setFilteredOptions] = useState([])
 	const [showSuggestions, setShowSuggestions] = useState(false)
 
-	const { addresses } = useAddress()
-    console.log(addresses)
+	const { addresses } = useAddress() // Recupera las direcciones de la API
 
 	const handleChange = (e) => {
+		//Asigna el valor del input al estado de inputValue
 		const value = e.target.value
 		setInputValue(value)
 
-		const filtered = addresses.filter((option) =>
-			option.address.toLowerCase().includes(value.toLowerCase())
+		//Filtra las direcciones recuperadas de la API mostrando solo las que coinciden con el input
+		const filtered = addresses.filter((option) =>(
+				option.address.toLowerCase().includes(value.toLowerCase()) ||
+				option.neighborhood.toLowerCase().includes(value.toLowerCase()) ||
+				option.zipCode.toLowerCase().includes(value.toLowerCase())
+			)
 		)
+		
+		//Si el input está vacío, no muestra ninguna dirección
+		if (value === '') {
+			setFilteredOptions([])
+			setShowSuggestions(false)
+			return
+		}
 
-		setFilteredOptions(filtered)
+		//Muestra solo las primeras 3 direcciones que coinciden con el input
+		setFilteredOptions(filtered.slice(0,3))
+		//En caso de haber resultados, los muestra
 		setShowSuggestions(filtered.length > 0)
 	}
 
+	//Asigna la dirección seleccionada al input
 	const handleSelect = (option) => {
-		setInputValue(option.address)
+		setInputValue(option.address + ' ' + option.neighborhood + ' ' + option.zipCode)
 		setShowSuggestions(false)
 	}
 
+	//Valida si se presionó Enter o Tab y si coincide con alguna dirección de las sugerencias
 	const handleEnter = (e) => {
 		if (e.key === "Enter" || e.key === "Tab") {
 			if (e.key === "Enter" || e.key === "Tab") {
                 const isValid = options.some(option => option.address === inputValue);
                 if (!isValid) {
-                  setInputValue(""); // Borra si no es válido
+                  setInputValue("");
                 }
                 setShowSuggestions(false);
 		    }
@@ -50,6 +65,8 @@ export default function Rent() {
 					<label className="label-search" htmlFor="search-box">
 						Pick-up Location
 					</label>
+				</div>
+				<div className="input-search">
 					<input
 						type="text"
 						value={inputValue}
@@ -58,19 +75,20 @@ export default function Rent() {
 						placeholder="Miami International Airport (MIA)..."
                         className="input-addresses"
 					/>
+					{/* Muestra las direcciones que coinciden con el input */}
 					{showSuggestions && (
-						<div className="addresses-suggestions">
-							{filteredOptions.map((option, index) => (
-								<button
-									key={index}
-									onClick={() => handleSelect(option)}
-                                    className="button-select"
-								>
-									{option.address} - {option.neighborhood} - {option.zipCode}
-								</button>
-							))}
-						</div>
-					)}
+					<div className="addresses-suggestions">
+						{filteredOptions.map((option, index) => (
+							<button
+								key={index}
+								onClick={() => handleSelect(option)}
+								className="button-select"
+							>
+								{option.address} - {option.neighborhood} - {option.zipCode}
+							</button>
+						))}
+					</div>
+				)}
 				</div>
 				<div className="date-container">
 					<span className="span-container">

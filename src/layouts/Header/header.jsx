@@ -21,10 +21,10 @@ export default function Header() {
           </div>
           <div className="bottom-header">
               <ul className="list-menu">
-                  <li><a href="">FAQs</a></li>
+                  <li><a href="">Rent</a></li>
+                  <li><a href="">Fleet</a></li>
                   <li><a href="">About us</a></li>
-                  <li><a href="">Our fleet</a></li>
-                  <li><a href="">Sign in</a></li>
+                  <li><a href="">FAQs</a></li>
               </ul>
           </div>
       </header>
