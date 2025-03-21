@@ -30,7 +30,7 @@ export default function Rent() {
 		}
 
 		//Muestra solo las primeras 3 direcciones que coinciden con el input
-		setFilteredOptions(filtered.slice(0,3))
+		setFilteredOptions(filtered)
 		//En caso de haber resultados, los muestra
 		setShowSuggestions(filtered.length > 0)
 	}

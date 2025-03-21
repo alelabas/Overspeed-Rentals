@@ -13,6 +13,7 @@ export function useVehicles() {
         year: vehicle.year,
         color: vehicle.color,
         milleage: vehicle.milleage,
-        images: vehicle.images
+        images: vehicle.images,
+        price: vehicle.price
     }))
 }

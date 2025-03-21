@@ -3,7 +3,7 @@
         {
             "id": 1,
             "make": "Ford",
-            "model": "Mustang Ecoboost",
+            "model": "Mustang Convertible",
             "year": 2018,
             "color": "White",
             "milleage": 115000,
@@ -11,12 +11,13 @@
                 "/src/assets/CarImages/mustang-blanco-1.jpg",
                 "/src/assets/CarImages/mustang-blanco-2.jpg",
                 "/src/assets/CarImages/mustang-blanco-3.jpg"
-            ]
+            ],
+            "price" : 80
         },
         {
             "id": 2,
             "make": "Ford",
-            "model":"Mustang Ecoboost",
+            "model":"Mustang Convertible",
             "year": 2019,
             "color": "Red",
             "milleage": 43000,
@@ -26,12 +27,13 @@
                 "/src/assets/CarImages/mustang-rojo-3.jpg",
                 "/src/assets/CarImages/mustang-rojo-4.jpg"
 
-            ]
+            ],
+            "price" : 80
         },
         {
             "id": 3,
             "make": "Porsche",
-            "model": "Macan Base",
+            "model": "Macan",
             "year": 2018,
             "color": "Blue",
             "milleage": 95000,
@@ -39,7 +41,8 @@
                 "/src/assets/CarImages/mustang-blanco-2.jpg",
                 "/src/assets/CarImages/mustang-blanco-2.jpg",
                 "/src/assets/CarImages/mustang-blanco-2.jpg"
-            ]
+            ],
+            "price" : 80
         },
         {
             "id": 4,
@@ -50,7 +53,8 @@
             "milleage": 55000,
             "images" : [
                 "/src/assets/CarImages/mustang-blanco-3.jpg"
-            ]
+            ],
+            "price" : 80
         }
     ]
 }

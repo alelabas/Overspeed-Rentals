@@ -84,9 +84,12 @@
 
 .addresses-suggestions {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     border-radius: 6px;
     background-color: #bfbfbf;
+    width: 800px;
+    height: 87.6px;
+    overflow: auto;
 }
 
 
@@ -96,7 +99,7 @@
     text-align: left;
     font-size: 15px;
     padding: 5px 5px;
-
+    width: 785px;
 }
 
 .button-select:hover {

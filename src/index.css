@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(235, 235, 235, 0.944)
 }
