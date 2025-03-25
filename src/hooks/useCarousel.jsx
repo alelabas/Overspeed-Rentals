@@ -6,6 +6,11 @@ import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import 'swiper/css/keyboard'
 
+/*
+    Hook que permite reutilizar el carusel de Swiper en distintas partes del sitio unicamente recibiendo como prop
+    los elementos que se desean mostrar en el carusel.
+*/ 
+
 export function useCarousel( {children} ) {
     return (
         <Swiper 
