@@ -1,10 +1,13 @@
 import { useVehicles } from "../../hooks/useVehicles"
+
 import "./Fleet.css"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Navigation, Pagination } from 'swiper/modules' 
+import { Navigation, Pagination, Scrollbar, Mousewheel, Keyboard, FreeMode } from 'swiper/modules' 
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+import 'swiper/css/keyboard'
 import { IoMdPeople } from "react-icons/io";
 import { MdLuggage } from "react-icons/md";
 import { IconContext } from "react-icons/lib"
@@ -14,9 +17,10 @@ import { LuFuel } from "react-icons/lu";
 
 export function Fleet() {
 	const vehicles = useVehicles()
+    console.log(vehicles)
 
 	return (
-        <>
+        <section>
             <div className="fleet-header">
                 <h2>Our Fleet</h2>
                 <p>Choose from our wide selection of vehicles</p>
@@ -24,47 +28,44 @@ export function Fleet() {
 
             <div className="fleet-section">
                 <Swiper 
+                    modules={[Navigation, Pagination, Scrollbar, Mousewheel, Keyboard, FreeMode]}
+                    navigation
+                    freeMode={true}
+                    scrollbar={{draggable: true, hide: true, dragSize: 100}}
+                    mousewheel={{releaseOnEdges: true, forceToAxis: true}}
                     spaceBetween={25} 
                     slidesPerView={5} 
-                    slidesPerGroup={4} 
-                    pagination={{
-                        clickable: true
-                    }}
-                    modules={[Navigation, Pagination]}
-                    fadeEffect={{
-                        crossFade: true
-                    }}
-                    grabCursor={true}
-                    keyboard= { {enabled: true, onlyInViewport: true} }
-                    mousewheel = {{
-                        invert: true
-                    }}
+                    grabCursor={false}
+                    keyboard= { {enabled: true} }
                     resistance = {true}
                     resistanceRatio={0.3}  
                 >
                     {vehicles.map((vehicle) => (
-                        <SwiperSlide>
+                        <SwiperSlide key={vehicle.id}>
                             <div key={vehicle.id} className="fleet-card">
                                 <img src={vehicle.images[0]} alt={vehicle.name} />
                                 <h3>
                                     {vehicle.make} {vehicle.model}
                                 </h3>
-                                <p className="vehicle-data">{vehicle.year}</p>
                                 <div className="vehicle-specifications">
-                                    <div className="icons-section">
                                         <IconContext.Provider value={{size: "20px", color: 'black'}}>
-                                            <IoMdPeople />
-                                            <MdLuggage />
-                                            <LiaSuitcaseSolid />
-                                            <LuFuel />
+                                            <span className="vehicle-specs">
+                                                <IoMdPeople />
+                                                <p>{vehicle.passengers}</p>
+                                            </span>
+                                            <span className="vehicle-specs">
+                                                <MdLuggage />
+                                                <p>{vehicle.luggageCapacity}</p>
+                                            </span>
+                                            <span className="vehicle-specs">
+                                                <LiaSuitcaseSolid />
+                                                <p>{vehicle.carryOnCapacity}</p>
+                                            </span>
+                                            <span className="vehicle-specs">
+                                                <LuFuel />
+                                                <p>{vehicle.mpg}</p>
+                                            </span>
                                         </IconContext.Provider>
-                                    </div>
-                                    <div className="data-section">
-                                        <p>{vehicle.passengers}</p>
-                                        <p>{vehicle.luggageCapacity}</p>
-                                        <p>{vehicle.carryOnCapacity}</p>
-                                        <p>{vehicle.mpg}</p>
-                                    </div>
                                 </div>
                                 <p>
                                     From <span className="vehicle-price">${vehicle.price}/day</span> - <span className="discount-price">$120</span> 
@@ -74,6 +75,6 @@ export function Fleet() {
                     ))}
                 </Swiper>
             </div>
-        </>
+        </section>
 	)
 }

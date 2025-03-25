@@ -55,7 +55,7 @@ export default function Rent() {
 	}
 
 	return (
-		<div className="rent" id="rent-id">
+		<section className="rent" id="rent-id">
 			<div className="titulo">
 				<h2>Rent with us!</h2>
 			</div>
@@ -124,6 +124,6 @@ export default function Rent() {
 					<button className="input-button">Search</button>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }

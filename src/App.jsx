@@ -1,8 +1,9 @@
 import Header from './layouts/Header/header'
-import Servicies from './components/Servicies/servicies'
+import Servicies from './layouts/Servicies/servicies'
 import Rent from './components/Rent/rent'
 import { AddressProvider } from './context/addressContext'
 import { Fleet } from './components/Fleet/Fleet'
+import { AboutUs } from './layouts/About_us/AboutUs'
 
 export default function App(){
     return (
@@ -10,6 +11,7 @@ export default function App(){
             <Header />
             <Rent />
             <Fleet />
+            <AboutUs />
         </AddressProvider>
     )
 }

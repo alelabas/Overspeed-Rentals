@@ -34,16 +34,20 @@
     align-items: center;
     flex-direction: column;
     width: 250px;
-    height: 300px;
+    height: auto;
+    padding: 30px 0px;
+    margin-bottom: 20px;
     background-color: #d5d0cda1;
-    color: white;
+    color: #9e9691;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border: 2px solid rgb(211, 211, 211);
+    text-align: center;
+    place-content: center;
 }
 
 .fleet-card > img {
-    width: 100%;
+    width: 80%;
     object-fit: cover;
     border-radius: 10px;
     height: 150px;
@@ -61,7 +65,7 @@
 }
 
 .vehicle-data {
-    color: white;
+    color: #9e9691;
 }
 
 .vehicle-price {
@@ -74,9 +78,16 @@
 }
 
 .vehicle-specifications {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.vehicle-specs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .data-section {
@@ -84,4 +95,19 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.swiper-scrollbar {
+    --swiper-scrollbar-top: auto;
+    --swiper-scrollbar-size: 6px;
+    --swiper-scrollbar-drag-bg-color: #9e9691;
+    --swiper-scrollbar-bg-color: #d5d0cda1;
+}
+
+.swiper-button-next {
+    --swiper-navigation-color: #6d6c6b;
+}
+
+.swiper-button-prev {
+    --swiper-navigation-color: #6d6c6b;
 }
