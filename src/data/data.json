@@ -12,7 +12,11 @@
                 "/src/assets/CarImages/mustang-blanco-2.jpg",
                 "/src/assets/CarImages/mustang-blanco-3.jpg"
             ],
-            "price" : 80
+            "price" : 80,
+            "passengers": 5,
+            "luggageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
         },
         {
             "id": 2,
@@ -28,7 +32,11 @@
                 "/src/assets/CarImages/mustang-rojo-4.jpg"
 
             ],
-            "price" : 80
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
         },
         {
             "id": 3,
@@ -42,11 +50,15 @@
                 "/src/assets/CarImages/mustang-blanco-2.jpg",
                 "/src/assets/CarImages/mustang-blanco-2.jpg"
             ],
-            "price" : 80
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
         },
         {
             "id": 4,
-            "make": "Volskwagen",
+            "make": "Volkswagen",
             "model": "Golf MK7 GTI",
             "year": 2018,
             "color": "Blue",
@@ -54,7 +66,91 @@
             "images" : [
                 "/src/assets/CarImages/mustang-blanco-3.jpg"
             ],
-            "price" : 80
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
+        },
+        {
+            "id": 5,
+            "make": "Ford",
+            "model":"Mustang Convertible",
+            "year": 2019,
+            "color": "Red",
+            "milleage": 43000,
+            "images": [
+                "/src/assets/CarImages/mustang-rojo-1.jpg",
+                "/src/assets/CarImages/mustang-rojo-2.jpg",
+                "/src/assets/CarImages/mustang-rojo-3.jpg",
+                "/src/assets/CarImages/mustang-rojo-4.jpg"
+
+            ],
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
+        },
+        {
+            "id": 6,
+            "make": "Ford",
+            "model":"Mustang Convertible",
+            "year": 2019,
+            "color": "Red",
+            "milleage": 43000,
+            "images": [
+                "/src/assets/CarImages/mustang-rojo-1.jpg",
+                "/src/assets/CarImages/mustang-rojo-2.jpg",
+                "/src/assets/CarImages/mustang-rojo-3.jpg",
+                "/src/assets/CarImages/mustang-rojo-4.jpg"
+
+            ],
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
+        },
+        {
+            "id": 7,
+            "make": "Ford",
+            "model":"Mustang Convertible",
+            "year": 2019,
+            "color": "Red",
+            "milleage": 43000,
+            "images": [
+                "/src/assets/CarImages/mustang-rojo-1.jpg",
+                "/src/assets/CarImages/mustang-rojo-2.jpg",
+                "/src/assets/CarImages/mustang-rojo-3.jpg",
+                "/src/assets/CarImages/mustang-rojo-4.jpg"
+
+            ],
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
+        },
+        {
+            "id": 8,
+            "make": "Ford",
+            "model":"Mustang Convertible",
+            "year": 2019,
+            "color": "Red",
+            "milleage": 43000,
+            "images": [
+                "/src/assets/CarImages/mustang-rojo-1.jpg",
+                "/src/assets/CarImages/mustang-rojo-2.jpg",
+                "/src/assets/CarImages/mustang-rojo-3.jpg",
+                "/src/assets/CarImages/mustang-rojo-4.jpg"
+
+            ],
+            "price" : 80,
+            "passengers": 5,
+            "lugageCapacity": 2,
+            "carryOnCapacity": 2,
+            "mpg": 30
         }
     ]
 }

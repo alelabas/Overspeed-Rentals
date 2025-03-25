@@ -14,6 +14,10 @@ export function useVehicles() {
         color: vehicle.color,
         milleage: vehicle.milleage,
         images: vehicle.images,
-        price: vehicle.price
+        price: vehicle.price,
+        luggageCapacity: vehicle.luggageCapacity,
+        carryOnCapacity: vehicle.carryOnCapacity,
+        passengers: vehicle.passengers,
+        mpg: vehicle.mpg
     }))
 }

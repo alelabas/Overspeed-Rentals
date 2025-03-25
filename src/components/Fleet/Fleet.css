@@ -1,12 +1,12 @@
-.fleet-section {
+.fleet-header {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
 }
 
-.fleet-section > h2 {
+.fleet-header > h2 {
     margin: 0;
     padding: 0;
     font-size: 2.5rem;
@@ -14,54 +14,54 @@
     color: #333;
 }
 
-.fleet-section > p {
+.fleet-header > p {
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
     color: #333;
-    margin-bottom: 50px;
 }
 
-.fleet-container {
+.fleet-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
 }
 
 .fleet-card {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     width: 250px;
     height: 300px;
-    background-color: #95877ea1;
+    background-color: #d5d0cda1;
     color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(211, 211, 211);
 }
 
-.fleet-carousel {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+.fleet-card > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.fleet-card > h3 {
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
+}
+
+.fleet-card .discount-price {
+    color: rgba(70, 70, 70, 0.271);
+    font-weight: 800;
 }
 
 .vehicle-data {
     color: white;
-}
-
-.arrow-button {
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
 }
 
 .vehicle-price {
@@ -71,4 +71,17 @@
 
 .vehicle-price > span {
     color: rgba(22, 22, 22, 0.407);
+}
+
+.vehicle-specifications {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.data-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
