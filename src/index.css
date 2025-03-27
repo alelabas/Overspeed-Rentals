@@ -8,3 +8,24 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgba(235, 235, 235, 0.944);
 }
+
+.swiper-scrollbar {
+    --swiper-scrollbar-top: auto;
+    --swiper-scrollbar-size: 6px;
+    --swiper-scrollbar-drag-bg-color: #9e9691;
+    --swiper-scrollbar-bg-color: #d5d0cda1;
+}
+
+.swiper-button-next {
+    --swiper-navigation-color: #6d6c6b;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.swiper-button-prev {
+    --swiper-navigation-color: #6d6c6b;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 30px;
+    border-radius: 100px;
+}

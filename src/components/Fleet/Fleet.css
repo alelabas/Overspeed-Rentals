@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .fleet-header > h2 {
@@ -36,7 +36,7 @@
     width: 250px;
     height: auto;
     padding: 30px 0px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     background-color: #d5d0cda1;
     color: #9e9691;
     border-radius: 10px;
@@ -94,20 +94,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+
 }
 
-.swiper-scrollbar {
-    --swiper-scrollbar-top: auto;
-    --swiper-scrollbar-size: 6px;
-    --swiper-scrollbar-drag-bg-color: #9e9691;
-    --swiper-scrollbar-bg-color: #d5d0cda1;
-}
-
-.swiper-button-next {
-    --swiper-navigation-color: #6d6c6b;
-}
-
-.swiper-button-prev {
-    --swiper-navigation-color: #6d6c6b;
-}

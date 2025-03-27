@@ -152,5 +152,26 @@
             "carryOnCapacity": 2,
             "mpg": 30
         }
+    ],
+    "clients" : [
+        {
+            "images" : [
+                "/src/assets/Clients/clientImage1.jpg",
+                "/src/assets/Clients/clientImage2.jpg",
+                "/src/assets/Clients/clientImage3.jpg",
+                "/src/assets/Clients/clientImage4.jpg",
+                "/src/assets/Clients/clientImage5.jpg",
+                "/src/assets/Clients/clientImage1.jpg",
+                "/src/assets/Clients/clientImage2.jpg",
+                "/src/assets/Clients/clientImage3.jpg",
+                "/src/assets/Clients/clientImage4.jpg",
+                "/src/assets/Clients/clientImage5.jpg",
+                "/src/assets/Clients/clientImage1.jpg",
+                "/src/assets/Clients/clientImage2.jpg",
+                "/src/assets/Clients/clientImage3.jpg",
+                "/src/assets/Clients/clientImage4.jpg",
+                "/src/assets/Clients/clientImage5.jpg"
+            ]
+        }
     ]
 }

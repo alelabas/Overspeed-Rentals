@@ -1,0 +1,50 @@
+.clients-section {
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: #d5d0cda1;
+    border-radius: 8px;
+    height: 300px;      
+}
+
+.clients-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+
+.clients-section-title > h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.clients-section-title > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.clients-section-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    place-items: center;
+    width: 800px;
+}
+
+.image-carousel {
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-container {
+    height: 200px;
+    width: 300px;
+    margin: 20px 0px;
+}

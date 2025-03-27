@@ -19,10 +19,10 @@ export function useCarousel( {children} ) {
             freeMode={true}
             scrollbar={{draggable: true, hide: true, dragSize: 100}}
             mousewheel={{releaseOnEdges: true, forceToAxis: true}}
-            spaceBetween={25} 
+            spaceBetween={30} 
             slidesPerView={5} 
             grabCursor={false}
-            keyboard= { {enabled: true} }
+            keyboard= { {enabled: true, onlyInViewport: true} }
             resistance = {true}
             resistanceRatio={0.3}  
         >

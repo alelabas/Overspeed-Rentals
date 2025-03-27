@@ -22,7 +22,6 @@ export function AboutUs () {
                         <img src={ThirdImage} alt="Rental Image" />
                     </div>
                 </div>
-
             </div>
         </section>
     )
