@@ -17,7 +17,7 @@
 
 .about-us-text > p {
     font-size: 1.1rem;
-    color: #333;
+    color: black;
 }
 
 .about-us-content {
@@ -45,13 +45,15 @@
 }
 
 .image-div {
-    width: 33%;
     border-radius: 8px;
 }
 
 .image-div > img {
     width: 450px;
     height: 350px;
-    border-radius: 8px;
     object-fit: contain;
+}
+
+.rental-image {
+    border-radius: 8px;
 }

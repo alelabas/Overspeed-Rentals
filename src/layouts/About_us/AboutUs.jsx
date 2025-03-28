@@ -15,13 +15,13 @@ export function AboutUs () {
 
                 <div className="images-container">
                     <div className="image-div">
-                        <img src={FirstImage} alt="Rental Image" />
+                        <img className="rental-image" src={FirstImage} alt="Rental Image" />
                     </div>
                     <div className="image-div">
-                        <img src={SecondImage} alt="Rental Image" />
+                        <img className="rental-image" src={SecondImage} alt="Rental Image" />
                     </div>
                     <div className="image-div">
-                        <img src={ThirdImage} alt="Rental Image" />
+                        <img className="rental-image" src={ThirdImage} alt="Rental Image" />
                     </div>
                 </div>
             </div>

@@ -38,13 +38,12 @@
     width: 800px;
 }
 
-.image-carousel {
+.image-container-carousel {
     height: auto;
-    border-radius: 8px;
 }
 
-.image-container {
+.image-carousel {
     height: 200px;
-    width: 300px;
     margin: 20px 0px;
+    border-radius: 8px;
 }
