@@ -25,6 +25,16 @@ export function useCarousel( {children} ) {
             keyboard= { {enabled: true, onlyInViewport: true} }
             resistance = {true}
             resistanceRatio={0.3}  
+            breakpoints={{
+                1000: {
+                    slidesPerView: 5,
+                    spaceBetween: 30
+                },
+                300: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                } 
+            }}
         >
             {children}
         </Swiper>

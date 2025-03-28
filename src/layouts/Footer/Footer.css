@@ -1,0 +1,87 @@
+.page-footer {
+    background-color: #d5d0cda1;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 8px;
+    gap: 80px;
+}
+
+.site-map-section {
+    display: flex;
+    gap: 100px;
+}   
+
+.content-wrap > h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.content-wrap > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment-methods-list {
+    display: flex;
+    gap: 30px;
+}
+
+.contact-section > ul {
+    list-style: none;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.disclaimer-section > p {
+    color: #4a4949a1;
+}
+
+.button-list {
+    border: 3px solid transparent;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.button-icons {
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.button-list:hover {
+    border-bottom: 3px solid rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
+    transition: all 0.5s ease-in-out;
+}
+
+.button-icons:hover {
+    opacity: 0.6;
+}

@@ -5,6 +5,7 @@ import { AddressProvider } from './context/addressContext'
 import { Fleet } from './components/Fleet/Fleet'
 import { AboutUs } from './layouts/About_us/AboutUs'
 import { Clients } from './components/Clients/Clients'
+import { Footer } from './layouts/Footer/Footer'
 
 export default function App(){
     return (
@@ -12,7 +13,9 @@ export default function App(){
             <Header />
             <Rent />
             <Fleet />
+            <AboutUs />
             <Clients />
+            <Footer />
         </AddressProvider>
     )
 }
