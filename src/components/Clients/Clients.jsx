@@ -2,8 +2,6 @@ import dataImage from '../../data/data.json'
 import { useCarousel } from "../../hooks/useCarousel"
 import "./Clients.css"
 import { SwiperSlide } from "swiper/react"
-import { nanoid } from "nanoid"
-
 
 export function Clients () {
 

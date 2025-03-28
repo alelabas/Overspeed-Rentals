@@ -13,6 +13,7 @@ export default function App(){
             <Header />
             <Rent />
             <Fleet />
+            <Servicies />
             <AboutUs />
             <Clients />
             <Footer />

@@ -15,7 +15,6 @@
     filter: blur(10px);
     background-repeat: no-repeat;
     background-position: center;
-
     z-index: -1;
 }
 
@@ -23,6 +22,7 @@
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: white;
+    text-transform: uppercase;
 }
 
 .rent .form{

@@ -1,54 +1,70 @@
-.servicies{
+.servicies {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-flow: column;
-    margin-top: 50px;
-    padding-top: 50px;
-    background-color: rgba(255, 255, 255, 0.101);
-    width: 100%;
+    justify-content: center;
+    padding: 10px;
 }
 
 .servicies h2{
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: #333;
     font-weight: 900;
     text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-.servicies-container{
-    margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.44);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.362);
-    border-radius: 10px;
+.servicies-container {
+    text-align: center;
+    background-color: rgba(215, 215, 215, 0.944);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    gap: 30px;
 }
 
-.service-container h3, p{
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-}
-
-.service-container h3{
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.service-container p{
-    font-size: 16px;
-}
-
-.service-container{
+.service-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 20px;
+    background-color: rgba(202, 202, 202, 0.944);
+    border-radius: 8px;
     padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.142);   
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.service-container img{
-    width: 50%;
+.service-container > h3 {
+    font-size: 1.4rem;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container > img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    border-radius: 8px;
+}
+
+.image-container > p {
+    position: absolute;
+    bottom: -40px;
+    left: 12%;
+    transform: translateX(-10%);
+    background-color: rgba(0, 0, 0, 0.351); /* Fondo semitransparente */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+    backdrop-filter: blur(5px);
 }
