@@ -173,5 +173,37 @@
                 "/src/assets/Clients/clientImage5.jpg"
             ]
         }
+    ],
+    "FAQs" : [
+        {
+            "question" : "How do I rent a car?",
+            "response" : "You can rent a car from our website or message us on our social media",
+            "show" : false
+        },
+        {
+            "question" : "What happens if I crash a car",
+            "response" : "Whenever you rent a car you have to pay a deposit. In case of an accident, all of our cars have insurance, so you will only loose your deposit",
+            "show" : false
+        },
+        {
+            "question" : "How do I return a vehicle",
+            "response" : "You can arrange a Pick-Up location or return the car to us. The only thing you have to care about is returning the car with the same fuel level that you received in the car",
+            "show" : false
+        },
+        {
+            "question" : "How does the renting combos work?",
+            "response" : "Let's say that you came to Miami with a lot of luggage that wont fit a sports car. We can arrange a switch of cars for some days. The first car can be an SUV, which you can use for the days you want and whenver you want we can arrange a switch to another car",
+            "show" : false
+        },
+        {
+            "question" : "How do I pay?",
+            "response" : "Once you make a reservation, you will be charge with a reservation fee and when you arrive here you pay the rest, in whatever payment method you prefer",
+            "show" : false
+        },
+        {
+            "question" : "Do I need an International license to drive in Miami?",
+            "response" : "No. In the state of Miami-Dade you can drive with the license of your country, but just in Miami-Dade. For other states you must ask us",
+            "show" : false
+        }
     ]
 }

@@ -77,8 +77,8 @@
 }
 
 .button-list:hover {
-    border-bottom: 3px solid rgb(60, 60, 60);
-    color: rgb(60, 60, 60);
+    border-bottom: 3px solid rgb(160, 140, 140);
+    color: rgb(160, 140, 140);
     transition: all 0.5s ease-in-out;
 }
 
