@@ -23,7 +23,7 @@ export default function Servicies(){
                     <h3>Airport Pick-Up and Delivery</h3>
                     <div className="image-container">
                         <img src="src/assets/CarImages/mustangs-3.jpg" alt="" />
-                        <p>You can forget about arriving and Miami and calling a taxi or uber. We will deliver and pick-up the car straight <strong>out of your gate</strong></p>
+                        <p>You can forget about arriving at Miami and calling a taxi or uber. We will deliver and pick-up the car straight <strong>out of your gate</strong></p>
                     </div>
                 </div>
                 <div className="service-container">
