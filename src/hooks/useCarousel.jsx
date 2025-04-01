@@ -11,7 +11,7 @@ import 'swiper/css/keyboard'
     los elementos que se desean mostrar en el carusel.
 */ 
 
-export function useCarousel( {children} ) {
+export function useCarousel( {children, slides} ) {
     return (
         <Swiper 
             modules={[Navigation, Pagination, Scrollbar, Mousewheel, Keyboard, FreeMode]}
@@ -20,18 +20,18 @@ export function useCarousel( {children} ) {
             scrollbar={{draggable: true, hide: true, dragSize: 100}}
             mousewheel={{releaseOnEdges: true, forceToAxis: true}}
             spaceBetween={20} 
-            slidesPerView={5} 
+            slidesPerView={slides} 
             grabCursor={false}
             keyboard= { {enabled: true, onlyInViewport: true} }
             resistance = {true}
             resistanceRatio={0.3}  
             breakpoints={{
                 1000: {
-                    slidesPerView: 5,
+                    slidesPerView: slides,
                     spaceBetween: 30
                 },
                 300: {
-                    slidesPerView: 3,
+                    slidesPerView: slides - 1,
                     spaceBetween: 10
                 } 
             }}

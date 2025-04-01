@@ -1,0 +1,43 @@
+.why-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.why-us-section > h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.stats-section {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.stat-clients {
+    width: 250px;
+    font-size: 1.6rem;
+    color: rgb(255, 60, 60);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.fundaments-section {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 60px;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundaments-section > span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

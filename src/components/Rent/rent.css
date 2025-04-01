@@ -25,6 +25,16 @@
     text-transform: uppercase;
 }
 
+.rent h2::after {
+    background: rgb(255, 60, 60);
+    border-radius: 10px;
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: 10px;
+    width: 44px;
+}
+
 .rent .form{
     background-color: #f9f9f9;
     border-radius: 5px;

@@ -16,7 +16,7 @@ export function Clients () {
         )
     )
 
-    const carousel = useCarousel({children})
+    const carousel = useCarousel({children, slides: 5})
 
     return (
         <section className="clients-section">

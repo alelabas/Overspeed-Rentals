@@ -46,6 +46,16 @@
     color: #333;
 }
 
+.service-container > h3::after {
+    background: rgb(255, 60, 60);
+    border-radius: 10px;
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: 10px;
+    width: 44px;
+}
+
 .image-container {
     position: relative;
     display: inline-block;

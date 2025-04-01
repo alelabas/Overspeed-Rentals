@@ -1,7 +1,6 @@
 Proximos avances:
 1. Guia de como rentar
 2. Por que elegirnos
-3. Tipos de vehiculos
 4. Resenas?
 5. Chatbot?
 6. volver al principio

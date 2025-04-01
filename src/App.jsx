@@ -7,6 +7,8 @@ import { AboutUs } from './layouts/About_us/AboutUs'
 import { Clients } from './components/Clients/Clients'
 import { Footer } from './layouts/Footer/Footer'
 import { FAQs } from './components/FAQs/FAQs'
+import { Vehicles } from './components/Vehicles/Vehicles'
+import { WhyUs } from './layouts/WhyUs/WhyUs'
 
 export default function App(){
     return (
@@ -15,6 +17,8 @@ export default function App(){
             <Rent />
             <Fleet />
             <Servicies />
+            <Vehicles />
+            <WhyUs />
             <AboutUs />
             <Clients />
             <FAQs />

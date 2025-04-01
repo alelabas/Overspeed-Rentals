@@ -205,5 +205,43 @@
             "response" : "No. In the state of Miami-Dade you can drive with the license of your country, but just in Miami-Dade. For other states you must ask us",
             "show" : false
         }
+    ],
+    "vehicleTypes" : [
+        {
+            "type": "Economic Small",
+            "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
+            "image": "src/assets/VehicleTypes/kiario.jpg"
+        },
+        {
+            "type": "Economic Large",
+            "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
+            "image": "src/assets/VehicleTypes/vwpassat.jpg"
+        },
+        {
+            "type": "Convertible",
+            "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
+            "image": "src/assets/VehicleTypes/fordmustang.png"
+             
+        },
+        {
+            "type": "Sports Car",
+            "description": "Add a some emotion driving a great looking and performing car for your vacations",
+            "image": "src/assets/VehicleTypes/vwgolfgti.png" 
+        },
+        {
+            "type": "SUVs",
+            "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
+            "image": "src/assets/VehicleTypes/porschemacan.png" 
+        },
+        {
+            "type": "Mini Van",
+            "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
+            "image": "src/assets/VehicleTypes/grandcaravan.png"
+        },
+        {
+            "type": "Electric",
+            "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
+            "image": "src/assets/VehicleTypes/teslamodely.png"
+        }
     ]
 }
