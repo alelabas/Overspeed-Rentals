@@ -49,6 +49,12 @@ export function WhyUs() {
                             <h4>Brand new, clean and mint cars</h4>
                         </span>
                 </article>
+                
+                <article className="about-us">
+                    <div className="about-us-content">
+                        <p>Our goal at <strong>OverSpeed Rentals</strong> is to provide our customers with the best possible service and make their car rental experience as <strong>easy and convenient</strong> as possible. We offer <strong>competitive rates</strong> and flexible rental terms to meet the needs of our customers. Whether you need a car for a day, a week, or longer, we have <strong>the perfect vehicle for you</strong>. Contact us today to learn more about our car rental services and to reserve your vehicle.</p>
+                    </div>
+                </article>
             </section>
         </IconContext.Provider>
     )
