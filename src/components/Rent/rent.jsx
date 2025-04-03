@@ -57,8 +57,11 @@ export default function Rent() {
 	return (
 		<section className="rent" id="rent-id">
 			<div className="titulo">
-				<h2>Rent with us!</h2>
+				<h1 className="page-title">OVERSPEED RENTALS</h1>
+				<p className="page-mission">Our mission is to make your vacations <strong>unique</strong> and <strong>unforgettable</strong> where you won't have any worries or concerness.<br/>We will make everything happen so that you <strong>enjoy</strong> and <br/> <strong>Drive Miami Your Way</strong></p>
 			</div>
+
+			<h2>Rent with us!</h2>
 			<div className="form">
 				<div className="form-top">
 					<img src="/src/assets/car-side-svgrepo-com.svg" alt="" />
