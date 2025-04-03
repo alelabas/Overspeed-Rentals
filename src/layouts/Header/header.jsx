@@ -19,14 +19,6 @@ export default function Header() {
               <button><FaShoppingCart/></button>
             </div>
           </div>
-          <div className="bottom-header">
-              <ul className="list-menu">
-                  <li><a href="">Rent</a></li>
-                  <li><a href="">Fleet</a></li>
-                  <li><a href="">About us</a></li>
-                  <li><a href="">FAQs</a></li>
-              </ul>
-          </div>
       </header>
     </IconContext.Provider>
   );

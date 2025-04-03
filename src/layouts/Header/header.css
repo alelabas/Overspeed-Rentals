@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-flow: column;
-    height: 100px;
+    height: 60px;
 }
 
 .top-header{
@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
 }
 
 .left-menu button{
@@ -29,42 +28,4 @@
 .middle-menu, img {
     width: 150px;
     height: 120px;
-}
-
-.bottom-header{
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-.list-menu{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    gap: 50px;
-    text-align: center;
-
-}
-
-.list-menu > li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-}
-
-.list-menu > li:hover {
-    background-color: #e2e1e1cf;    
-    text-align: center;
-    height: 100%;
-    border: solid rgba(0, 0, 0, 0.296) 1px;
-    border-radius: 3px;
-}
-
-.list-menu > li > a{
-    text-decoration: none;
-    color: #000;
 }
