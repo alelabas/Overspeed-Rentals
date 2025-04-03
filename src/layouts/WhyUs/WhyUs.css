@@ -2,6 +2,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 20px;
+    background-image: url("../../assets/miamiBanner.webp");
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 80px;
+    mask-image: linear-gradient(to top, transparent, black 10%);
+    -webkit-mask-image: (
+        linear-gradient(
+            to top,
+            transparent,
+            black 10%
+        )
+    )
+}
+
+.why-us-section::after {
+    content: "";
+    position: absolute;
+    height: auto;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    filter: blur(40px);
 }
 
 .why-us-section > h2 {
@@ -16,7 +40,9 @@
     align-items: center;
     text-align: center;
     margin-bottom: 40px;
+
 }
+
 
 .stat-clients {
     width: 250px;
@@ -39,6 +65,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    color: white;
 }
 
 .about-us {
@@ -54,7 +81,7 @@
 .about-us-content {
     margin-top: 30px;
     text-align: center;
-    background-color: rgba(215, 215, 215, 0.944);
+    background-color: rgba(215, 215, 215, 0.674);
     padding: 20px 30px;
     border-radius: 8px;
     display: flex;
