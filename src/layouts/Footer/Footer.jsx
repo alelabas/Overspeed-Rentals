@@ -41,10 +41,10 @@ export function Footer () {
                     <div className="content-wrap">
                         <h3>Contact Us!</h3>
                         <ul className="contact-icons">
-                            <button className="button-icons"><li><FaInstagram /></li></button>
-                            <button className="button-icons"><li><FaWhatsapp /></li></button>
-                            <button className="button-icons"><li><FiMessageCircle /></li></button>
-                            <button className="button-icons"><li><MdEmail /></li></button>
+                            <a href="https://www.instagram.com/overspeedrentals/" target="_blank" className="button-icons"><li><FaInstagram /></li></a>
+                            <a className="button-icons"><li><FaWhatsapp /></li></a>
+                            <a className="button-icons"><li><FiMessageCircle /></li></a>
+                            <a className="button-icons"><li><MdEmail /></li></a>
                         </ul>
                     </div>
                 </section>
