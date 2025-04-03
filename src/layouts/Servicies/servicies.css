@@ -12,41 +12,71 @@
     font-weight: 900;
     text-transform: uppercase;
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .servicies-container {
     text-align: center;
-    background-color: rgba(215, 215, 215, 0.944);
     border-radius: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 400px;
+    width: 100%;    
     gap: 30px;
-    margin-bottom: 40px;
+    position: relative;
 }
 
 .service-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(202, 202, 202, 0.944);
     border-radius: 8px;
-    padding: 20px;
-    height: 350px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 400px;
+    width: 400px;
+
 }
 
-.service-container > h3 {
+.service-container > img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    z-index: -10;
+}
+
+.service-text-container > h3 {
     font-size: 1.4rem;
     margin-bottom: 20px;
-    color: #333;
+    color: white;
+    z-index: 10;
 }
 
-.service-container > h3::after {
+.service-text-container > p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.service-text-container {
+    position: relative;
+    place-items: center;
+    padding: 10px;
+}
+
+.service-text-container::after {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: blur(20px);
+    content: '';
+    inset: 0;
+    z-index: -1;
+}
+
+.service-text-container > h3::after {
     background: rgb(255, 60, 60);
     border-radius: 10px;
     content: "";
@@ -54,31 +84,4 @@
     height: 4px;
     margin-top: 10px;
     width: 44px;
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-    width: 300px;
-}
-
-.image-container > img {
-    width: 100%;
-    height: 250px;
-    display: block;
-    border-radius: 8px;
-}
-
-.image-container > p {
-    position: absolute;
-    bottom: 5%;
-    left: 12%;
-    transform: translateX(-10%);
-    background-color: rgba(0, 0, 0, 0.351);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
-    text-align: left;
-    font-size: 14px;
-    backdrop-filter: blur(5px);
 }
