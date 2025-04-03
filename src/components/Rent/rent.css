@@ -3,7 +3,6 @@
     flex-flow: column;
     padding: 20px 20px;
     align-items: flex-start;
-    background-image: url("../../assets/CarImages/mustang-blanco-1.jpg");
     height: 700px;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -26,16 +25,7 @@
 .page-mission {
     font-size: 1.4rem;
     color: #333;
-}
-
-.rent::before{
-    background-size: cover;
-    filter: blur(10px);
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1;
-    
-}
+}   
 
 .rent h2{
     font-size: 2.5rem;
