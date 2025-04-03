@@ -6,7 +6,7 @@ export default function Servicies(){
             <h2>Our servicies</h2>
             <div className="servicies-container">
                 <div className="service-container">
-                    <img src="src/assets/CarImages/mustang-blanco-1.webp" alt="" />
+                    <img src="src/assets/CarImages/mustang-rojo-2.webp" alt="" />
                     <div className="service-text-container">
                         <h3>Sports Cars Rental</h3>
                         <p>We offer the best cars for the best price in the market. You can enjoy the big engines while driving with the roof down and enjoy the breeze of Miami.</p>
@@ -27,7 +27,7 @@ export default function Servicies(){
                     </div>
                 </div>
                 <div className="service-container">
-                    <img src="src/assets/CarImages/mustangs-2.webp" alt="" />
+                    <img src="src/assets/CarImages/bmwMustang.webp" alt="" />
                     <div className="service-text-container">
                         <h3>Renting Combos</h3>
                         <p>Do you want to rent a convertible but you can't fit your luggage? No worries, we can arrange both a SUV or Van and a convertible combo</p>

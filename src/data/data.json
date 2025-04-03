@@ -8,14 +8,14 @@
             "color": "White",
             "milleage": 115000,
             "images" : [
-                "/src/assets/CarImages/mustang-blanco-1.webp",
+                "/src/assets/CarImages/mustangBlancoFR.webp",
                 "/src/assets/CarImages/mustang-blanco-2.webp",
                 "/src/assets/CarImages/mustang-blanco-3.webp"
             ],
-            "price" : 80,
-            "passengers": 5,
-            "luggageCapacity": 2,
-            "carryOnCapacity": 2,
+            "price" : 120,
+            "passengers": 4,
+            "luggageCapacity": 1,
+            "carryOnCapacity": 1,
             "mpg": 30
         },
         {
@@ -26,16 +26,16 @@
             "color": "Red",
             "milleage": 43000,
             "images": [
-                "/src/assets/CarImages/mustang-rojo-1.webp",
+                "/src/assets/CarImages/mustang-rojo-4.webp",
                 "/src/assets/CarImages/mustang-rojo-2.webp",
                 "/src/assets/CarImages/mustang-rojo-3.webp",
-                "/src/assets/CarImages/mustang-rojo-4.webp"
+                "/src/assets/CarImages/mustang-rojo-1.webp"
 
             ],
-            "price" : 80,
-            "passengers": 5,
-            "luggageCapacity": 2,
-            "carryOnCapacity": 2,
+            "price" : 120,
+            "passengers": 4,
+            "luggageCapacity": 1,
+            "carryOnCapacity": 1,
             "mpg": 30
         },
         {
@@ -46,111 +46,111 @@
             "color": "Blue",
             "milleage": 95000,
             "images" : [
-                "/src/assets/CarImages/mustang-blanco-2.webp",
+                "/src/assets/CarImages/porscheMacanFR.webp",
                 "/src/assets/CarImages/mustang-blanco-2.webp",
                 "/src/assets/CarImages/mustang-blanco-2.webp"
             ],
-            "price" : 80,
+            "price" : 130,
             "passengers": 5,
             "luggageCapacity": 2,
             "carryOnCapacity": 2,
-            "mpg": 30
+            "mpg": 25
         },
         {
             "id": 4,
-            "make": "Volkswagen",
-            "model": "Golf MK7 GTI",
+            "make": "VW",
+            "model": "Golf GTI",
             "year": 2018,
             "color": "Blue",
             "milleage": 55000,
             "images" : [
-                "/src/assets/CarImages/mustang-blanco-3.webp"
+                "/src/assets/CarImages/vwGolfFL.webp"
             ],
-            "price" : 80,
+            "price" : 100,
             "passengers": 5,
-            "luggageCapacity": 2,
+            "luggageCapacity": 1,
             "carryOnCapacity": 2,
             "mpg": 30
         },
         {
             "id": 5,
-            "make": "Ford",
-            "model":"Mustang Convertible",
-            "year": 2019,
-            "color": "Red",
-            "milleage": 43000,
+            "make": "VW",
+            "model":"Passat",
+            "year": 2015,
+            "color": "Silver",
+            "milleage": 67000,
             "images": [
-                "/src/assets/CarImages/mustang-rojo-1.webp",
+                "/src/assets/CarImages/vwPassatFL.webp",
                 "/src/assets/CarImages/mustang-rojo-2.webp",
                 "/src/assets/CarImages/mustang-rojo-3.webp",
                 "/src/assets/CarImages/mustang-rojo-4.webp"
 
             ],
-            "price" : 80,
+            "price" : 50,
             "passengers": 5,
             "luggageCapacity": 2,
             "carryOnCapacity": 2,
-            "mpg": 30
+            "mpg": 36
         },
         {
             "id": 6,
-            "make": "Ford",
-            "model":"Mustang Convertible",
+            "make": "BMW",
+            "model":"2 Series Convertible",
             "year": 2019,
-            "color": "Red",
+            "color": "white",
             "milleage": 43000,
             "images": [
-                "/src/assets/CarImages/mustang-rojo-1.webp",
+                "/src/assets/CarImages/bmw220FL.webp",
                 "/src/assets/CarImages/mustang-rojo-2.webp",
                 "/src/assets/CarImages/mustang-rojo-3.webp",
                 "/src/assets/CarImages/mustang-rojo-4.webp"
 
             ],
-            "price" : 80,
-            "passengers": 5,
-            "luggageCapacity": 2,
-            "carryOnCapacity": 2,
-            "mpg": 30
+            "price" : 65,
+            "passengers": 4,
+            "luggageCapacity": 1,
+            "carryOnCapacity": 1,
+            "mpg": 24
         },
         {
             "id": 7,
-            "make": "Ford",
-            "model":"Mustang Convertible",
+            "make": "BMW",
+            "model":"M235I",
             "year": 2019,
-            "color": "Red",
+            "color": "Green",
             "milleage": 43000,
             "images": [
-                "/src/assets/CarImages/mustang-rojo-1.webp",
+                "/src/assets/CarImages/bmwM235FL.jpg",
                 "/src/assets/CarImages/mustang-rojo-2.webp",
                 "/src/assets/CarImages/mustang-rojo-3.webp",
                 "/src/assets/CarImages/mustang-rojo-4.webp"
 
             ],
-            "price" : 80,
-            "passengers": 5,
-            "luggageCapacity": 2,
-            "carryOnCapacity": 2,
-            "mpg": 30
+            "price" : 75,
+            "passengers": 4,
+            "luggageCapacity": 1,
+            "carryOnCapacity": 1,
+            "mpg": 22
         },
         {
             "id": 8,
-            "make": "Ford",
-            "model":"Mustang Convertible",
+            "make": "Honda",
+            "model":"Pilot",
             "year": 2019,
-            "color": "Red",
+            "color": "White",
             "milleage": 43000,
             "images": [
-                "/src/assets/CarImages/mustang-rojo-1.webp",
+                "/src/assets/CarImages/hondaPilotFL.webp",
                 "/src/assets/CarImages/mustang-rojo-2.webp",
                 "/src/assets/CarImages/mustang-rojo-3.webp",
                 "/src/assets/CarImages/mustang-rojo-4.webp"
 
             ],
-            "price" : 80,
-            "passengers": 5,
-            "luggageCapacity": 2,
-            "carryOnCapacity": 2,
-            "mpg": 30
+            "price" : 100,
+            "passengers": 7,
+            "luggageCapacity": 3,
+            "carryOnCapacity": 3,
+            "mpg": 35
         }
     ],
     "clients" : [
@@ -161,16 +161,9 @@
                 "/src/assets/Clients/clientImage3.webp",
                 "/src/assets/Clients/clientImage4.webp",
                 "/src/assets/Clients/clientImage5.webp",
-                "/src/assets/Clients/clientImage1.webp",
-                "/src/assets/Clients/clientImage2.webp",
-                "/src/assets/Clients/clientImage3.webp",
-                "/src/assets/Clients/clientImage4.webp",
-                "/src/assets/Clients/clientImage5.webp",
-                "/src/assets/Clients/clientImage1.webp",
-                "/src/assets/Clients/clientImage2.webp",
-                "/src/assets/Clients/clientImage3.webp",
-                "/src/assets/Clients/clientImage4.webp",
-                "/src/assets/Clients/clientImage5.webp"
+                "/src/assets/Clients/clientImage6.webp",
+                "/src/assets/Clients/clientImage7.webp",
+                "/src/assets/Clients/clientImage1.webp"
             ]
         }
     ],

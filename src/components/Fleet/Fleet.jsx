@@ -41,7 +41,7 @@ export function Fleet() {
                         </IconContext.Provider>
                 </div>
                 <p>
-                    From <span className="vehicle-price">${vehicle.price}/day</span> - <span className="discount-price">$120</span> 
+                    From <span className="vehicle-price">${vehicle.price}/day</span> - <span className="discount-price">${vehicle.price + 40}</span> 
                 </p>
             </div>
         </SwiperSlide>
