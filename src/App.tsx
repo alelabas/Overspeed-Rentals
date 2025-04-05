@@ -8,6 +8,7 @@ import { Footer } from './layouts/Footer/Footer'
 import { FAQs } from './components/FAQs/FAQs'
 import { Vehicles } from './components/Vehicles/Vehicles'
 import { WhyUs } from './layouts/WhyUs/WhyUs'
+import React from 'react'
 
 export default function App(){
     return (
