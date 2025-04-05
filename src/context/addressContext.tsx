@@ -4,7 +4,7 @@ import React from "react";
 import { Address } from "../types/types";
 
 //Crea el contexto de las direcciones para ser usadas como un estado global
-export const AddressContext = createContext<Address[]>()
+export const AddressContext = createContext<Address[] | undefined>(undefined)
 
 //Configura el Provider de las direcciones 
 export function AddressProvider ( {children} ) {
@@ -20,10 +20,7 @@ export function AddressProvider ( {children} ) {
     }, [])
 
     return (
-        <AddressContext.Provider value={{
-            addresses
-        }}
-        >
+        <AddressContext.Provider value={addresses}>
             {children}
         </AddressContext.Provider>
     )
