@@ -2,10 +2,11 @@ import "./WhyUs.css"
 import { ContadorAnimado } from "./ContadorAnimado"
 import { FaCheck } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import React from "react";
 
 export function WhyUs() {
     return (
-        <IconContext.Provider value={{size: 40, color: 'green'}}>
+        <IconContext.Provider value={{size: '40', color: 'green'}}>
             <section className="why-us-section">
                 <h2>Why Us?</h2>
                 <article className="stats-section">

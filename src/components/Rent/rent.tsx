@@ -16,6 +16,12 @@ export default function Rent() {
 		const value = e.target.value
 		setInputValue(value)
 
+		if (!addresses) {
+			setFilteredOptions([])
+			setShowSuggestions(false)
+			return
+		}
+
 		//Filtra las direcciones recuperadas de la API mostrando solo las que coinciden con el input
 		const filtered = addresses.filter( option => (
 			option.address.toLowerCase().includes(value.toLowerCase()) ||
@@ -43,19 +49,6 @@ export default function Rent() {
 		setShowSuggestions(false)
 	}
 
-	//Valida si se presionó Enter o Tab y si coincide con alguna dirección de las sugerencias
-	const handleEnter = (e: React.KeyboardEvent) => {
-		if (e.key === "Enter" || e.key === "Tab") {
-			if (e.key === "Enter" || e.key === "Tab") {
-                const isValid = addresses.some(option => option.address === inputValue);
-                if (!isValid) {
-                  setInputValue("");
-                }
-                setShowSuggestions(false);
-		    }
-        }
-	}
-
 	return (
 		<section className="rent" id="rent-id">
 			<div className="titulo">
@@ -76,7 +69,6 @@ export default function Rent() {
 						type="text"
 						value={inputValue}
 						onChange={handleChange}
-						onKeyDown={handleEnter}
 						placeholder="Miami International Airport (MIA)..."
                         className="input-addresses"
 					/>

@@ -1,11 +1,12 @@
 import dataList from "../data/data.json"
+import { FAQs } from "../types/types"
 
 export function useFAQs () {
 
-    const faqs = dataList.FAQs
+    const faqs: FAQs[] = dataList.FAQs
 
-    return faqs.map((faq, index) => ({
-        id: index,
+    return faqs.map( faq => ({
+        id: faq.id,
         question: faq.question,
         response: faq.response,
         show: faq.show

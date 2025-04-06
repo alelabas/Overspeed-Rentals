@@ -1,7 +1,7 @@
 import dataVehicles from "../data/data.json"
 import { VehicleTypes } from "../types/types"
 
-export function useVehicleTypes () {
+export function useVehicleTypes (): VehicleTypes[] {
     
     const vehicleTypes: VehicleTypes[] = dataVehicles.vehicleTypes
 

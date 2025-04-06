@@ -4,11 +4,12 @@ import { SiZelle, SiMercadopago } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { IconContext } from "react-icons";
 import "./Footer.css"
+import React from "react";
 
 export function Footer () {
 
     return (
-        <IconContext.Provider value={{size: 35}}>
+        <IconContext.Provider value={{size: '35'}}>
             <footer className="page-footer">
                 <section className="site-map-section">
                     <div className="content-wrap">

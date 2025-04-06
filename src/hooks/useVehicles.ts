@@ -1,7 +1,7 @@
 import dataVehicles from "../data/data.json"
 import { Cars } from "../types/types" 
 
-export function useVehicles() {
+export function useVehicles(): Cars[] {
 
     //Recupero los vehiculos del archivo data.json
     const vehicles: Cars[] = dataVehicles.vehicles

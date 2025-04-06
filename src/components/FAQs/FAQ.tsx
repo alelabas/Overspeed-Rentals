@@ -1,10 +1,17 @@
+import React from "react"
+import { FAQs } from "../../types/types"
 
-export function FAQ ({faq, index, handleFAQ}) {
+interface FAQProps {
+    faq: FAQs
+    handleFAQ: (index: number) => void
+}
+
+export const FAQ: React.FC<FAQProps> = ({faq, handleFAQ}) => {
     return (
         <div 
             className={'faq' + (faq.show ? ' open' : '')} 
-            key={index}
-            onClick={() => handleFAQ(index)}
+            key={faq.id}
+            onClick={() => handleFAQ(faq.id)}
         >
             <div className="faq-question">
                 {faq.question}

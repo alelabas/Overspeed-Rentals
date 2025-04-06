@@ -2,12 +2,14 @@ import { useVehicleTypes } from "../../hooks/useVehicleTypes";
 import { useCarousel } from "../../hooks/useCarousel"
 import { SwiperSlide } from "swiper/react";
 import "./Vehicles.css"
+import React, { ReactNode } from "react";
+import { VehicleTypes } from "../../types/types";
 
 export function Vehicles () {
     
-    const vehicleTypes = useVehicleTypes()
+    const vehicleTypes: VehicleTypes[] = useVehicleTypes()
 
-    const children = vehicleTypes.map(vehicle => (
+    const children: ReactNode = vehicleTypes.map(vehicle => (
         <SwiperSlide key={vehicle.id}>
             <div className="types-container">
                 <img src={vehicle.image} alt="Car Image" className="type-image" />

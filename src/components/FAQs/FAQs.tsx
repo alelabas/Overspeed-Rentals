@@ -2,12 +2,14 @@ import { useFAQs } from "../../hooks/useFAQs";
 import { useState } from "react";
 import { FAQ } from "./FAQ";
 import "./FAQs.css"
+import React from "react";
+import { FAQs as FaqsTypes } from "../../types/types";
 
 export function FAQs () {
     
-    const [faqs, setFaqs] = useState(useFAQs())
+    const [faqs, setFaqs] = useState<FaqsTypes[]>(useFAQs())
 
-    const handleFAQ = index => {
+    const handleFAQ = (index: number): void  => {
         setFaqs(faqs.map((faq, i) => {
             if (i === index)
                 faq.show = !faq.show
@@ -18,7 +20,7 @@ export function FAQs () {
     }
 
     const filteredFAQs = faqs.map((faq, index) => (
-        <FAQ key={index} faq={faq} index={index} handleFAQ={handleFAQ} />
+        <FAQ key={index} faq={faq} handleFAQ={ handleFAQ } />
     ))
     
     return (

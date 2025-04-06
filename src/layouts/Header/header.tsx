@@ -2,6 +2,7 @@ import "./header.css";
 import { CiMenuBurger } from "react-icons/ci";
 import { FaShoppingCart } from "react-icons/fa";
 import  { IconContext } from "react-icons"
+import React from "react";
 
 
 export default function Header() {

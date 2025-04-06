@@ -31,3 +31,10 @@ export interface CarouselProps {
     children: React.ReactNode;
     slides: number;
 }
+
+export interface FAQs {
+    id: number;
+    question: string;
+    response: string;
+    show: boolean;
+}

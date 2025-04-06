@@ -1,5 +1,5 @@
-import { useVehicles } from "../../hooks/useVehicles"
-import { useCarousel } from "../../hooks/useCarousel.jsx";
+import { useVehicles } from "../../hooks/useVehicles.js"
+import { useCarousel } from "../../hooks/useCarousel.js";
 import "./Fleet.css"
 import { SwiperSlide } from "swiper/react"
 import { IoMdPeople } from "react-icons/io";
@@ -7,6 +7,7 @@ import { MdLuggage } from "react-icons/md";
 import { IconContext } from "react-icons/lib"
 import { LiaSuitcaseSolid } from "react-icons/lia";
 import { LuFuel } from "react-icons/lu";
+import React from "react";
 
 
 export function Fleet() {
@@ -16,7 +17,7 @@ export function Fleet() {
     const children = vehicles.map((vehicle) => (
         <SwiperSlide key={vehicle.id}>
             <div key={vehicle.id} className="fleet-card">
-                <img src={vehicle.images[0]} alt={vehicle.name} />
+                <img src={vehicle.images[0]} alt={vehicle.model} />
                 <h3>
                     {vehicle.make} {vehicle.model}
                 </h3>

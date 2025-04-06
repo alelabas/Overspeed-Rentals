@@ -1,10 +1,11 @@
 import { useInView } from "react-intersection-observer";
 import { useRef, useEffect } from "react";
 import "./WhyUs.css"
+import React from "react";
 
 export function ContadorAnimado ({ inicio, fin, duracion}) {
     
-    const contadorRef = useRef(null)
+    const contadorRef = useRef<HTMLElement | null>(null)
 
     //Custom hook de intersection observer para gestionar cuando un elemento esta dentro del viewport
     const { ref, inView } = useInView({
@@ -26,7 +27,9 @@ export function ContadorAnimado ({ inicio, fin, duracion}) {
                 contadorActual = fin
                 clearInterval(intervalo)
             }
-            contadorRef.current.innerText = `+${Math.floor(contadorActual)}`
+            if (contadorRef.current) {  
+                contadorRef.current.innerText = `+${Math.floor(contadorActual)}`
+            }
         })
 
         //cleanup function
