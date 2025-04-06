@@ -1,25 +1,27 @@
 import "./rent.css"
 import { useAddress } from "../../hooks/useAddresses"
-import { useState } from "react"
+import { ReactHTMLElement, useState } from "react"
+import React from "react"
+import { Address } from "../../types/types"
 
 export default function Rent() {
-	const [inputValue, setInputValue] = useState('')
-	const [filteredOptions, setFilteredOptions] = useState([])
+	const [inputValue, setInputValue] = useState<string>('')
+	const [filteredOptions, setFilteredOptions] = useState<Address[]>()
 	const [showSuggestions, setShowSuggestions] = useState(false)
 
-	const { addresses } = useAddress() // Recupera las direcciones de la API
+	const addresses = useAddress() // Recupera las direcciones de la API
 
-	const handleChange = (e) => {
+	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		//Asigna el valor del input al estado de inputValue
 		const value = e.target.value
 		setInputValue(value)
 
 		//Filtra las direcciones recuperadas de la API mostrando solo las que coinciden con el input
-		const filtered = addresses.filter((option) =>(
-				option.address.toLowerCase().includes(value.toLowerCase()) ||
-				option.neighborhood.toLowerCase().includes(value.toLowerCase()) ||
-				option.zipCode.toLowerCase().includes(value.toLowerCase())
-			)
+		const filtered = addresses.filter( option => (
+			option.address.toLowerCase().includes(value.toLowerCase()) ||
+			option.neighborhood.toLowerCase().includes(value.toLowerCase()) ||
+			option.zipCode.toLowerCase().includes(value.toLowerCase()
+		))
 		)
 		
 		//Si el input está vacío, no muestra ninguna dirección
@@ -36,16 +38,16 @@ export default function Rent() {
 	}
 
 	//Asigna la dirección seleccionada al input
-	const handleSelect = (option) => {
+	const handleSelect = (option: Address) => {
 		setInputValue(option.address + ' ' + option.neighborhood + ' ' + option.zipCode)
 		setShowSuggestions(false)
 	}
 
 	//Valida si se presionó Enter o Tab y si coincide con alguna dirección de las sugerencias
-	const handleEnter = (e) => {
+	const handleEnter = (e: React.KeyboardEvent) => {
 		if (e.key === "Enter" || e.key === "Tab") {
 			if (e.key === "Enter" || e.key === "Tab") {
-                const isValid = options.some(option => option.address === inputValue);
+                const isValid = addresses.some(option => option.address === inputValue);
                 if (!isValid) {
                   setInputValue("");
                 }
@@ -81,7 +83,7 @@ export default function Rent() {
 					{/* Muestra las direcciones que coinciden con el input */}
 					{showSuggestions && (
 					<div className="addresses-suggestions">
-						{filteredOptions.map((option, index) => (
+						{filteredOptions && filteredOptions.map((option, index) => (
 							<button
 								key={index}
 								onClick={() => handleSelect(option)}

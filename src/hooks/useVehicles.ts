@@ -1,9 +1,10 @@
 import dataVehicles from "../data/data.json"
+import { Cars } from "../types/types" 
 
 export function useVehicles() {
 
     //Recupero los vehiculos del archivo data.json
-    const vehicles = dataVehicles.vehicles
+    const vehicles: Cars[] = dataVehicles.vehicles
 
     //Devuelvo un array con los vehiculos y sus datos
     return vehicles.map(vehicle => ({

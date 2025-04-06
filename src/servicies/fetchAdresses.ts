@@ -7,9 +7,9 @@ export const addressSearch = async (): Promise<Address[]> => {
         const results = await fetch(API_URL)
         const parsedResults = await results.json()
 
-        const addresses = parsedResults.features
+        const addresses = parsedResults.features as { attributes: { OBJECTID: number; ADDRESS: string; ZIPCODE: string; NEIGHBORHOOD: string } }[]
 
-        const addressesArray: Address[] = addresses.map((address: { attributes: { OBJECTID: number; ADDRESS: string; ZIPCODE: string; NEIGHBORHOOD: string } }) => ({
+        const addressesArray: Address[] = addresses.map((address) => ({
             id: address.attributes.OBJECTID,
             address: address.attributes.ADDRESS,
             zipCode: address.attributes.ZIPCODE,

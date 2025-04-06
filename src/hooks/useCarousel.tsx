@@ -5,13 +5,15 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import 'swiper/css/keyboard'
+import React from 'react'
+import { CarouselProps } from '../types/types'
 
 /*
     Hook que permite reutilizar el carusel de Swiper en distintas partes del sitio unicamente recibiendo como prop
     los elementos que se desean mostrar en el carusel.
 */ 
 
-export function useCarousel( {children, slides} ) {
+export function useCarousel( {children, slides} : CarouselProps ) {
     return (
         <Swiper 
             modules={[Navigation, Pagination, Scrollbar, Mousewheel, Keyboard, FreeMode]}

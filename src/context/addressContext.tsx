@@ -20,7 +20,7 @@ export function AddressProvider ( {children} ) {
     }, [])
 
     return (
-        <AddressContext.Provider value={addresses}>
+        <AddressContext.Provider value={{addresses}}>
             {children}
         </AddressContext.Provider>
     )
