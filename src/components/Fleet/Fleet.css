@@ -78,6 +78,10 @@
     color: rgba(22, 22, 22, 0.407);
 }
 
+.discount-price {
+    text-decoration: line-through;
+}
+
 .vehicle-specifications {
     display: flex;
     gap: 10px;
@@ -95,6 +99,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
