@@ -106,7 +106,7 @@
                 "/src/assets/CarImages/mustang-rojo-4.webp"
 
             ],
-            "price" : 65,
+            "price" : 160,
             "passengers": 4,
             "luggageCapacity": 1,
             "carryOnCapacity": 1,
@@ -126,7 +126,7 @@
                 "/src/assets/CarImages/mustang-rojo-4.webp"
 
             ],
-            "price" : 75,
+            "price" : 180,
             "passengers": 4,
             "luggageCapacity": 1,
             "carryOnCapacity": 1,
