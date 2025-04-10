@@ -63,6 +63,7 @@
 .fleet-card .discount-price {
     color: rgba(70, 70, 70, 0.271);
     font-weight: 800;
+    text-decoration: line-through;
 }
 
 .vehicle-data {
