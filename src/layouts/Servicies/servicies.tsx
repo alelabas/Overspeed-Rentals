@@ -1,40 +1,63 @@
 import "./servicies.css";
 import React from "react";
+import { FaRoad, FaBuilding } from "react-icons/fa";
+import { IoCarSport } from "react-icons/io5";
+import { RiChatAiLine, RiRoadMapLine, Ri24HoursFill } from "react-icons/ri";
+import { CgAirplane } from "react-icons/cg";
+import { LiaCarAltSolid } from "react-icons/lia";
+import { IconContext } from "react-icons/lib";
 
 export default function Servicies(){
     return(
-        <section className="servicies" id="servicies-id">
-            <h2>Our servicies</h2>
-            <div className="servicies-container">
-                <div className="service-container">
-                    <img src="src/assets/CarImages/mustang-rojo-2.webp" alt="" />
-                    <div className="service-text-container">
-                        <h3>Sports Cars Rental</h3>
-                        <p>We offer the best cars for the best price in the market. You can enjoy the big engines while driving with the roof down and enjoy the breeze of Miami.</p>
+        <IconContext.Provider value={{
+            size: "2.5rem",
+            color: "#FF3C3C"
+        }}>
+            <section className="servicies">
+                <h2>Our servicies</h2>
+                <section className="services-container">
+                    <div className="service-container">
+                        <FaRoad />
+                        <h3>Road Assistance</h3>
                     </div>
-                </div>
-                <div className="service-container">
-                    <img src="src/assets/CarImages/mustangs-2.webp" alt="" />
-                    <div className="service-text-container">
-                        <h3>24/7 Pick-Up and Drop-Off</h3>
-                        <p>We can Deliver and Pick-Up the cars whenever it's comfortable for <strong>you</strong>. Even early in the morning or late in the night</p>
+
+                    <div className="service-container">
+                        <IoCarSport />
+                        <h3>Sports Cars</h3>
                     </div>
-                </div>
-                <div className="service-container">
-                    <img src="src/assets/CarImages/mustangs-3.webp" alt="" />
-                    <div className="service-text-container">
-                        <h3>Airport Pick-Up and Drop-Off</h3>
-                        <p>You can forget about arriving at Miami and calling a taxi or uber. We will deliver and pick-up the car straight <strong>out of your gate</strong></p>
+
+                    <div className="service-container">
+                        <Ri24HoursFill />
+                        <h3>24/7 Service</h3>
                     </div>
-                </div>
-                <div className="service-container">
-                    <img src="src/assets/CarImages/bmwMustang.webp" alt="" />
-                    <div className="service-text-container">
+
+                    <div className="service-container">
+                        <RiChatAiLine />
+                        <h3>Chat Support</h3>
+                    </div>
+
+                    <div className="service-container">
+                        <RiRoadMapLine />
+                        <h3>Delivery & Pick-Up</h3>
+                    </div>
+
+                    <div className="service-container">
+                        <CgAirplane />
+                        <h3>Airport Delivery</h3>
+                    </div>
+                    
+                    <div className="service-container">
+                        <LiaCarAltSolid />
                         <h3>Renting Combos</h3>
-                        <p>Do you want to rent a convertible but you can't fit your luggage? No worries, we can arrange both a SUV or Van and a convertible combo</p>
                     </div>
-                </div>
-            </div>
-        </section>
+
+                    <div className="service-container">
+                        <FaBuilding />                     
+                        <h3>Premium Location</h3>
+                    </div>
+
+                </section>
+            </section>
+        </IconContext.Provider>
     )
 }

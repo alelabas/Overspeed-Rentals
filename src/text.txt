@@ -2,7 +2,6 @@ Branch para realizar el deployment.
 Pasos a seguir: 
 1. Implementar o cambiar el idioma del sitio
 2. Implementar un modo oscuro?
-3. Cambiar la seccion de servicios. Utilizar un diseno mas sencillo
 4. Invesitgar el deployment usando hostinger.
 5. Refactorizar el Rent component. Utilizar enlaces de contacto.
 6. Refactorizar los Vehicle component. Permitir ver mas detalles y fotos completas con una galeria.

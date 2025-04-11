@@ -9,81 +9,38 @@
 
 .servicies h2{
     font-size: 30px;
-    color: rgb(255, 60, 60);
+    color: #FF3C3C;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
-.servicies-container {
+.services-container {
+    display: grid;
     text-align: center;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;  
-    padding: 10px;  
-    gap: 30px;
-    position: relative;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    gap: 25px;
 }
 
 .service-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 8px;
-    position: relative;
-    height: 300px;
-    width: 400px;
-}
-
-.service-container:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-}
-
-.service-container > img {
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    border-radius: 8px;
-    z-index: -10;
-    mask-image: linear-gradient(to top, transparent, black 15%);
-}
-
-.service-text-container > h3 {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-    color: white;
-    z-index: 10;
-}
-
-.service-text-container > p {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.service-text-container {
-    position: relative;
-    place-items: center;
-    padding: 10px;
-}
-
-.service-text-container::after {
-    width: 100%;
+    justify-content: center;
+    width: 200px;
     height: 200px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.45);
-    filter: blur(20px);
-    content: '';
-    inset: 0;
-    z-index: -1;
+    background-color: rgba(215, 215, 215, 0.944);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-block-start: 15px;
 }
 
-.service-text-container > h3::after {
+.service-container > h3 {
+    margin-top: 10px;
+}
+
+.service-container > h3::after {
     background: rgb(255, 60, 60);
     border-radius: 10px;
     content: "";
@@ -91,4 +48,9 @@
     height: 4px;
     margin-top: 10px;
     width: 44px;
+}
+
+.service-container:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
