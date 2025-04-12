@@ -53,8 +53,8 @@
             "milleage": 95000,
             "images" : [
                 "/src/assets/CarImages/porscheMacan/porsche1.webp",
-                "/src/assets/CarImages/porscheMacan/porsche2.webp",
                 "/src/assets/CarImages/porscheMacan/porsche3.webp",
+                "/src/assets/CarImages/porscheMacan/porsche2.webp",
                 "/src/assets/CarImages/porscheMacan/porsche4.webp",
                 "/src/assets/CarImages/porscheMacan/porsche5.webp",
                 "/src/assets/CarImages/porscheMacan/porsche6.webp"
