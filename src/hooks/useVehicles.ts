@@ -19,6 +19,7 @@ export function useVehicles(): Cars[] {
         luggageCapacity: vehicle.luggageCapacity,
         carryOnCapacity: vehicle.carryOnCapacity,
         passengers: vehicle.passengers,
-        mpg: vehicle.mpg
+        mpg: vehicle.mpg,
+        engine: vehicle.engine
     }))
 }

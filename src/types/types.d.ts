@@ -18,6 +18,7 @@ export interface Cars {
     luggageCapacity: number;
     carryOnCapacity: number;
     mpg: number;
+    engine: string
 }
 
 export interface VehicleTypes {

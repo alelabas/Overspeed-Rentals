@@ -16,7 +16,8 @@
             "passengers": 4,
             "luggageCapacity": 1,
             "carryOnCapacity": 1,
-            "mpg": 30
+            "mpg": 30,
+            "engine": "2.0 Turbo Ecoboost 4 Cylinders"
         },
         {
             "id": 2,
@@ -36,7 +37,8 @@
             "passengers": 4,
             "luggageCapacity": 1,
             "carryOnCapacity": 1,
-            "mpg": 30
+            "mpg": 30,
+            "engine": "2.0 Turbo Ecoboost 4 Cylinders"
         },
         {
             "id": 3,
@@ -54,7 +56,8 @@
             "passengers": 5,
             "luggageCapacity": 2,
             "carryOnCapacity": 2,
-            "mpg": 25
+            "mpg": 25,
+            "engine": "2.0 Turbo 4 Cylinder"
         },
         {
             "id": 4,
@@ -70,7 +73,8 @@
             "passengers": 5,
             "luggageCapacity": 1,
             "carryOnCapacity": 2,
-            "mpg": 30
+            "mpg": 30,
+            "engine": "2.0 Turbo 4 Cylinder"
         },
         {
             "id": 5,
@@ -90,7 +94,8 @@
             "passengers": 5,
             "luggageCapacity": 2,
             "carryOnCapacity": 2,
-            "mpg": 36
+            "mpg": 36,
+            "engine": "1.8 Turbo 4 Cylinders"
         },
         {
             "id": 6,
@@ -110,7 +115,8 @@
             "passengers": 4,
             "luggageCapacity": 1,
             "carryOnCapacity": 1,
-            "mpg": 24
+            "mpg": 24,
+            "engine": "2.5 Turbo 6 Cylinder"
         },
         {
             "id": 7,
@@ -130,7 +136,8 @@
             "passengers": 4,
             "luggageCapacity": 1,
             "carryOnCapacity": 1,
-            "mpg": 22
+            "mpg": 22,
+            "engine": "3.0 6 cylinder"
         },
         {
             "id": 8,
@@ -150,7 +157,8 @@
             "passengers": 7,
             "luggageCapacity": 3,
             "carryOnCapacity": 3,
-            "mpg": 35
+            "mpg": 35,
+            "engine": "2.0 Turbo 4 Cylinder"
         }
     ],
     "clients" : [

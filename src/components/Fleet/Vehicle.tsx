@@ -1,11 +1,13 @@
 import React from "react";
 import { IoMdPeople, IoMdClose } from "react-icons/io";
-import { MdLuggage } from "react-icons/md";
+import { MdLuggage, MdOutlineInvertColors } from "react-icons/md";
 import { IconContext } from "react-icons/lib"
 import { LiaSuitcaseSolid } from "react-icons/lia";
 import { LuFuel } from "react-icons/lu";
 import { Cars } from "../../types/types";
 import { useRef } from "react";
+import { PiApplePodcastsLogo, PiEngine } from "react-icons/pi";
+import { TbAutomaticGearbox } from "react-icons/tb";
 
 export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 
@@ -56,8 +58,18 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 					</div>
 					
 					<div className="main-content">
-						<h3>{vehicle.make} {vehicle.model}</h3>
-						<img src={vehicle.images[1]} alt={vehicle.model} />
+						<div className="gallery-container">
+							<img src={vehicle.images[1]} alt={vehicle.model} />
+						</div>
+						<div className="data-vehicle-wrapper">
+							<h3>{vehicle.make} {vehicle.model} {vehicle.year}</h3>
+							<h4><MdOutlineInvertColors/> Color: {vehicle.color}</h4>
+							<h4><IoMdPeople /> Passengers: {vehicle.passengers}</h4>
+							<h4><PiApplePodcastsLogo/> Apple Car Play / Android Auto</h4>
+							<h4><PiEngine/> Engine: {vehicle.engine}</h4>
+							<h4><TbAutomaticGearbox/> Automatic Transmition</h4>
+							<button className="modal-button">Check Availability</button>
+						</div>
 					</div>
 				</div>	
 			</dialog>
