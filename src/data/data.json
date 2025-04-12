@@ -8,9 +8,11 @@
             "color": "White",
             "milleage": 115000,
             "images" : [
-                "/src/assets/CarImages/mustangBlancoFR.webp",
-                "/src/assets/CarImages/mustang-blanco-2.webp",
-                "/src/assets/CarImages/mustang-blanco-3.webp"
+                "/src/assets/CarImages/mustangWhite/mustangblanco1.webp",
+                "/src/assets/CarImages/mustangWhite/mustangblanco2.webp",
+                "/src/assets/CarImages/mustangWhite/mustangblanco3.webp",
+                "/src/assets/CarImages/mustangWhite/mustangblanco4.webp",
+                "/src/assets/CarImages/mustangWhite/mustangblanco5.webp"
             ],
             "price" : 120,
             "passengers": 4,
@@ -27,10 +29,12 @@
             "color": "Red",
             "milleage": 43000,
             "images": [
-                "/src/assets/CarImages/mustang-rojo-4.webp",
-                "/src/assets/CarImages/mustang-rojo-2.webp",
-                "/src/assets/CarImages/mustang-rojo-3.webp",
-                "/src/assets/CarImages/mustang-rojo-1.webp"
+                "/src/assets/CarImages/mustangRed/mustangrojo1.webp",
+                "/src/assets/CarImages/mustangRed/mustangrojo2.webp",
+                "/src/assets/CarImages/mustangRed/mustangrojo3.webp",
+                "/src/assets/CarImages/mustangRed/mustangrojo4.webp",
+                "/src/assets/CarImages/mustangRed/mustangrojo5.webp",
+                "/src/assets/CarImages/mustangRed/mustangrojo6.webp"
 
             ],
             "price" : 120,
@@ -48,9 +52,12 @@
             "color": "Blue",
             "milleage": 95000,
             "images" : [
-                "/src/assets/CarImages/porscheMacanFR.webp",
-                "/src/assets/CarImages/mustang-blanco-2.webp",
-                "/src/assets/CarImages/mustang-blanco-2.webp"
+                "/src/assets/CarImages/porscheMacan/porsche1.webp",
+                "/src/assets/CarImages/porscheMacan/porsche2.webp",
+                "/src/assets/CarImages/porscheMacan/porsche3.webp",
+                "/src/assets/CarImages/porscheMacan/porsche4.webp",
+                "/src/assets/CarImages/porscheMacan/porsche5.webp",
+                "/src/assets/CarImages/porscheMacan/porsche6.webp"
             ],
             "price" : 130,
             "passengers": 5,
@@ -67,7 +74,10 @@
             "color": "Blue",
             "milleage": 55000,
             "images" : [
-                "/src/assets/CarImages/vwGolfFL.webp"
+                "/src/assets/CarImages/vwGolfGTI/vwgolf1.webp",
+                "/src/assets/CarImages/vwGolfGTI/vwgolf2.webp",
+                "/src/assets/CarImages/vwGolfGTI/vwgolf3.webp",
+                "/src/assets/CarImages/vwGolfGTI/vwgolf4.webp"
             ],
             "price" : 100,
             "passengers": 5,
@@ -84,10 +94,10 @@
             "color": "Silver",
             "milleage": 67000,
             "images": [
-                "/src/assets/CarImages/vwPassatFL.webp",
-                "/src/assets/CarImages/mustang-rojo-2.webp",
-                "/src/assets/CarImages/mustang-rojo-3.webp",
-                "/src/assets/CarImages/mustang-rojo-4.webp"
+                "/src/assets/CarImages/vwPassat/vwpassat1.webp",
+                "/src/assets/CarImages/vwPassat/vwpassat2.webp",
+                "/src/assets/CarImages/vwPassat/vwpassat3.webp",
+                "/src/assets/CarImages/vwPassat/vwpassat4.webp"
 
             ],
             "price" : 50,
