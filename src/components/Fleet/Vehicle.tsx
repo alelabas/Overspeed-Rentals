@@ -8,6 +8,7 @@ import { Cars } from "../../types/types";
 import { useRef } from "react";
 import { PiApplePodcastsLogo, PiEngine } from "react-icons/pi";
 import { TbAutomaticGearbox } from "react-icons/tb";
+import { Gallery } from "./Gallery";
 
 export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 
@@ -59,7 +60,7 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 					
 					<div className="main-content">
 						<div className="gallery-container">
-							<img src={vehicle.images[1]} alt={vehicle.model} />
+							<Gallery vehicleImages={vehicle.images}/>
 						</div>
 						<div className="data-vehicle-wrapper">
 							<h3>{vehicle.make} {vehicle.model} {vehicle.year}</h3>
