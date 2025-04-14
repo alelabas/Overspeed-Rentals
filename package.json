@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alelabas.github.io/Overspeed-Rentals/",
+  "homepage": "https://alelabas.github.io/overspeed-rentals/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
