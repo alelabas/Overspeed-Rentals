@@ -59,7 +59,7 @@ export default function Rent() {
 			<h2>Rent with us!</h2>
 			<div className="form">
 				<div className="form-top">
-					<img src="/src/assets/car-side-svgrepo-com.svg" alt="" />
+					<img src="./src/assets/car-side-svgrepo-com.svg" alt="" />
 					<label className="label-search" htmlFor="search-box">
 						Pick-up Location
 					</label>
