@@ -15,12 +15,17 @@ export function Gallery ( { vehicleImages, modalRef }: Props ) {
         <>
             <img
                 src={vehicleImages[0]} 
-                onClick={() => {
+                className="gallery-image"
+            />
+
+            <h4 onClick={() => {
                     setOpenGallery(true)
                     modalRef.current!.close()
                 }}
-                className="gallery-image"
-            />
+                className="click-to-see-more"
+            >
+                Click to see more
+            </h4>
 
             <Lightbox 
                 open={openGallery}

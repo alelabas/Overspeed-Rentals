@@ -90,7 +90,7 @@ export default function Rent() {
 				<div className="date-container">
 					<span className="span-container">
 						<img
-							src="/src/assets/date-range-svgrepo-com.svg"
+							src="./src/assets/date-range-svgrepo-com.svg"
 							alt=""
 						/>
 						<label htmlFor="inputDateStart" className="label-date">
@@ -105,7 +105,7 @@ export default function Rent() {
 					</span>
 					<span className="span-container">
 						<img
-							src="/src/assets/date-range-end-svgrepo-com.svg"
+							src="./src/assets/date-range-end-svgrepo-com.svg"
 							alt=""
 						/>
 						<label htmlFor="inputDateEnd" className="label-date">

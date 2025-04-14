@@ -52,7 +52,7 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 				<button onClick={handleClick}>See more</button>
 			</div>
 
-			<dialog ref={refDialog} className="dialog-modal" closedBy="any">
+			<dialog ref={refDialog} className="dialog-modal" closedby="any">
 				<div className="dialog-content">
 					<div className="close-menu">
 						<form method="dialog"><button className="close-button"><IoMdClose size={'25px'}/></button></form>
