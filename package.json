@@ -6,7 +6,7 @@
   "homepage": "https://alelabas.github.io/overspeed-rentals/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc --build && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
