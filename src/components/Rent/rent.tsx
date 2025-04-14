@@ -59,7 +59,7 @@ export default function Rent() {
 			<h2>Rent with us!</h2>
 			<div className="form">
 				<div className="form-top">
-					<img src="./src/assets/car-side-svgrepo-com.svg" alt="" />
+					<img src="assets/car-side-svgrepo-com.svg" alt="" />
 					<label className="label-search" htmlFor="search-box">
 						Pick-up Location
 					</label>
@@ -90,7 +90,7 @@ export default function Rent() {
 				<div className="date-container">
 					<span className="span-container">
 						<img
-							src="./src/assets/date-range-svgrepo-com.svg"
+							src="assets/date-range-svgrepo-com.svg"
 							alt=""
 						/>
 						<label htmlFor="inputDateStart" className="label-date">
@@ -105,7 +105,7 @@ export default function Rent() {
 					</span>
 					<span className="span-container">
 						<img
-							src="./src/assets/date-range-end-svgrepo-com.svg"
+							src="assets/date-range-end-svgrepo-com.svg"
 							alt=""
 						/>
 						<label htmlFor="inputDateEnd" className="label-date">

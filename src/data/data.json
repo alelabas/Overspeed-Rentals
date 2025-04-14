@@ -8,11 +8,11 @@
             "color": "White",
             "milleage": 115000,
             "images" : [
-                "src/assets/CarImages/mustangWhite/mustangblanco1.webp",
-                "src/assets/CarImages/mustangWhite/mustangblanco2.webp",
-                "src/assets/CarImages/mustangWhite/mustangblanco3.webp",
-                "src/assets/CarImages/mustangWhite/mustangblanco4.webp",
-                "src/assets/CarImages/mustangWhite/mustangblanco5.webp"
+                "assets/CarImages/mustangWhite/mustangblanco1.webp",
+                "assets/CarImages/mustangWhite/mustangblanco2.webp",
+                "assets/CarImages/mustangWhite/mustangblanco3.webp",
+                "assets/CarImages/mustangWhite/mustangblanco4.webp",
+                "assets/CarImages/mustangWhite/mustangblanco5.webp"
             ],
             "price" : 120,
             "passengers": 4,
@@ -29,11 +29,11 @@
             "color": "Red",
             "milleage": 43000,
             "images": [
-                "src/assets/CarImages/mustangRed/mustangrojo1.webp",
-                "src/assets/CarImages/mustangRed/mustangrojo2.webp",
-                "src/assets/CarImages/mustangRed/mustangrojo4.webp",
-                "src/assets/CarImages/mustangRed/mustangrojo5.webp",
-                "src/assets/CarImages/mustangRed/mustangrojo6.webp"
+                "assets/CarImages/mustangRed/mustangrojo1.webp",
+                "assets/CarImages/mustangRed/mustangrojo2.webp",
+                "assets/CarImages/mustangRed/mustangrojo4.webp",
+                "assets/CarImages/mustangRed/mustangrojo5.webp",
+                "assets/CarImages/mustangRed/mustangrojo6.webp"
 
             ],
             "price" : 120,
@@ -51,12 +51,12 @@
             "color": "Blue",
             "milleage": 95000,
             "images" : [
-                "src/assets/CarImages/porscheMacan/porsche1.webp",
-                "src/assets/CarImages/porscheMacan/porsche3.webp",
-                "src/assets/CarImages/porscheMacan/porsche2.webp",
-                "src/assets/CarImages/porscheMacan/porsche4.webp",
-                "src/assets/CarImages/porscheMacan/porsche5.webp",
-                "src/assets/CarImages/porscheMacan/porsche6.webp"
+                "assets/CarImages/porscheMacan/porsche1.webp",
+                "assets/CarImages/porscheMacan/porsche3.webp",
+                "assets/CarImages/porscheMacan/porsche2.webp",
+                "assets/CarImages/porscheMacan/porsche4.webp",
+                "assets/CarImages/porscheMacan/porsche5.webp",
+                "assets/CarImages/porscheMacan/porsche6.webp"
             ],
             "price" : 130,
             "passengers": 5,
@@ -73,10 +73,10 @@
             "color": "Blue",
             "milleage": 55000,
             "images" : [
-                "src/assets/CarImages/vwGolfGTI/vwgolf1.webp",
-                "src/assets/CarImages/vwGolfGTI/vwgolf2.webp",
-                "src/assets/CarImages/vwGolfGTI/vwgolf3.webp",
-                "src/assets/CarImages/vwGolfGTI/vwgolf4.webp"
+                "assets/CarImages/vwGolfGTI/vwgolf1.webp",
+                "assets/CarImages/vwGolfGTI/vwgolf2.webp",
+                "assets/CarImages/vwGolfGTI/vwgolf3.webp",
+                "assets/CarImages/vwGolfGTI/vwgolf4.webp"
             ],
             "price" : 100,
             "passengers": 5,
@@ -93,10 +93,10 @@
             "color": "Silver",
             "milleage": 67000,
             "images": [
-                "src/assets/CarImages/vwPassat/vwpassat1.webp",
-                "src/assets/CarImages/vwPassat/vwpassat2.webp",
-                "src/assets/CarImages/vwPassat/vwpassat3.webp",
-                "src/assets/CarImages/vwPassat/vwpassat4.webp"
+                "assets/CarImages/vwPassat/vwpassat1.webp",
+                "assets/CarImages/vwPassat/vwpassat2.webp",
+                "assets/CarImages/vwPassat/vwpassat3.webp",
+                "assets/CarImages/vwPassat/vwpassat4.webp"
 
             ],
             "price" : 50,
@@ -114,10 +114,10 @@
             "color": "white",
             "milleage": 43000,
             "images": [
-                "src/assets/CarImages/bmw220FL.webp",
-                "src/assets/CarImages/mustang-rojo-2.webp",
-                "src/assets/CarImages/mustang-rojo-3.webp",
-                "src/assets/CarImages/mustang-rojo-4.webp"
+                "assets/CarImages/bmw220FL.webp",
+                "assets/CarImages/mustang-rojo-2.webp",
+                "assets/CarImages/mustang-rojo-3.webp",
+                "assets/CarImages/mustang-rojo-4.webp"
 
             ],
             "price" : 140,
@@ -135,10 +135,10 @@
             "color": "Green",
             "milleage": 43000,
             "images": [
-                "src/assets/CarImages/bmwM235FL.jpg",
-                "src/assets/CarImages/mustang-rojo-2.webp",
-                "src/assets/CarImages/mustang-rojo-3.webp",
-                "src/assets/CarImages/mustang-rojo-4.webp"
+                "assets/CarImages/bmwM235FL.jpg",
+                "assets/CarImages/mustang-rojo-2.webp",
+                "assets/CarImages/mustang-rojo-3.webp",
+                "assets/CarImages/mustang-rojo-4.webp"
 
             ],
             "price" : 160,
@@ -156,10 +156,10 @@
             "color": "White",
             "milleage": 43000,
             "images": [
-                "src/assets/CarImages/hondaPilotFL.webp",
-                "src/assets/CarImages/mustang-rojo-2.webp",
-                "src/assets/CarImages/mustang-rojo-3.webp",
-                "src/assets/CarImages/mustang-rojo-4.webp"
+                "assets/CarImages/hondaPilotFL.webp",
+                "assets/CarImages/mustang-rojo-2.webp",
+                "assets/CarImages/mustang-rojo-3.webp",
+                "assets/CarImages/mustang-rojo-4.webp"
 
             ],
             "price" : 100,
@@ -173,14 +173,14 @@
     "clients" : [
         {
             "images" : [
-                "src/assets/Clients/clientImage1.webp",
-                "src/assets/Clients/clientImage2.webp",
-                "src/assets/Clients/clientImage3.webp",
-                "src/assets/Clients/clientImage4.webp",
-                "src/assets/Clients/clientImage5.webp",
-                "src/assets/Clients/clientImage6.webp",
-                "src/assets/Clients/clientImage7.webp",
-                "src/assets/Clients/clientImage1.webp"
+                "assets/Clients/clientImage1.webp",
+                "assets/Clients/clientImage2.webp",
+                "assets/Clients/clientImage3.webp",
+                "assets/Clients/clientImage4.webp",
+                "assets/Clients/clientImage5.webp",
+                "assets/Clients/clientImage6.webp",
+                "assets/Clients/clientImage7.webp",
+                "assets/Clients/clientImage1.webp"
             ]
         }
     ],
@@ -239,44 +239,44 @@
             "id": 1,
             "type": "Economic Small",
             "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
-            "image": "src/assets/VehicleTypes/kiario.jpg"
+            "image": "assets/VehicleTypes/kiario.jpg"
         },
         {
             "id": 2,
             "type": "Economic Large",
             "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
-            "image": "src/assets/VehicleTypes/vwpassat.jpg"
+            "image": "assets/VehicleTypes/vwpassat.jpg"
         },
         {
             "id": 3,
             "type": "Convertible",
             "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
-            "image": "src/assets/VehicleTypes/fordmustang.png"
+            "image": "assets/VehicleTypes/fordmustang.png"
              
         },
         {
             "id": 4,
             "type": "Sports Car",
             "description": "Add a some emotion driving a great looking and performing car for your vacations",
-            "image": "src/assets/VehicleTypes/vwgolfgti.png" 
+            "image": "assets/VehicleTypes/vwgolfgti.png" 
         },
         {
             "id": 5,
             "type": "SUVs",
             "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
-            "image": "src/assets/VehicleTypes/porschemacan.png" 
+            "image": "assets/VehicleTypes/porschemacan.png" 
         },
         {
             "id": 6,
             "type": "Mini Van",
             "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
-            "image": "src/assets/VehicleTypes/grandcaravan.png"
+            "image": "assets/VehicleTypes/grandcaravan.png"
         },
         {
             "id": 7,
             "type": "Electric",
             "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
-            "image": "src/assets/VehicleTypes/teslamodely.png"
+            "image": "assets/VehicleTypes/teslamodely.png"
         }
     ]
 }

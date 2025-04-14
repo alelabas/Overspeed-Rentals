@@ -6,7 +6,7 @@
     height: 700px;
     margin-bottom: 40px;
     mask-image: linear-gradient(to top , transparent, black  10%);
-    background-image: url("../../assets/bannerTitle.webp");
+    background-image: url("/assets/bannerTitle.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
