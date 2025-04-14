@@ -185,11 +185,13 @@
     color: #FF3C3C;
     font-size: 1.6rem;
     font-weight: 800;
+    text-align: center;
 }
 
 .data-vehicle-wrapper > h4 {
     font-size: 1.1rem;
     color: #333;
+    text-align: center;
 }
 
 .modal-button {
@@ -208,4 +210,13 @@
     background-color: #FF1C1C;
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
+}
+
+.gallery-image {
+    border-radius: 8px;
+}
+
+.yarl__slide > img {
+    width: 100%;
+    height: auto;
 }

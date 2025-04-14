@@ -60,7 +60,7 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 					
 					<div className="main-content">
 						<div className="gallery-container">
-							<Gallery vehicleImages={vehicle.images}/>
+							<Gallery vehicleImages={vehicle.images} modalRef={refDialog}/>
 						</div>
 						<div className="data-vehicle-wrapper">
 							<h3>{vehicle.make} {vehicle.model} {vehicle.year}</h3>
