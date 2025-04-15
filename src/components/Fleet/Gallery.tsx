@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "yet-another-react-lightbox/styles.css";
 import Lightbox from "yet-another-react-lightbox";
+import Counter  from "yet-another-react-lightbox/plugins/counter";
+import "yet-another-react-lightbox/plugins/counter.css";
 
 interface Props {
     vehicleImages: string[]
@@ -29,6 +31,8 @@ export function Gallery ( { vehicleImages, modalRef }: Props ) {
 
             <Lightbox 
                 open={openGallery}
+                plugins={[Counter]}
+                counter={{ container: { style: { top: "unset", bottom: 0 } } }}
                 close={() => setOpenGallery(false)}
                 slides={vehicleImages.map( img => {
                     return {

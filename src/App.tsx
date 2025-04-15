@@ -9,12 +9,13 @@ import { Vehicles } from './components/Vehicles/Vehicles'
 import { WhyUs } from './layouts/WhyUs/WhyUs'
 import React from 'react'
 import Rent from './components/Rent/rent'
+import { Hero } from './components/Hero/Hero'
 
 export default function App(){
     return (
         <AddressProvider>
             <Header />
-            <Rent />
+            <Hero />
             <Fleet />
             <Servicies />
             <Vehicles />

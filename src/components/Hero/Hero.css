@@ -1,0 +1,42 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-image: url("/assets/fordmustanghero3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 50px;
+    mask-image: linear-gradient(to top, transparent, black 10%);
+    -webkit-mask-image: (
+        linear-gradient(
+            to top,
+            transparent,
+            black 10%
+        )
+    )
+}
+
+.hero-contact {
+    margin: 0px 20px;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background-color: #d5d0cde7;
+    border-radius: 8px;
+}
+
+.hero-contact > h1 {
+    font-size: 3rem;
+    color: #ff3c3c;
+    margin-bottom: 30px;
+}
+
+.hero-contact > p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.hero-button {
+    font-size: 1.5rem;
+}

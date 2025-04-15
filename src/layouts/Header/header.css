@@ -17,7 +17,7 @@
 
 @keyframes adjust-header {
     to {
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(216, 216, 216, 0.448);
         height: 50px;
         width: 25%;
         left: 38%;
