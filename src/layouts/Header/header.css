@@ -32,3 +32,31 @@
     width: 200px;
     height: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        position: sticky;
+        top: 0; 
+        height: 80px;
+    }
+
+    @keyframes adjust-header {
+        to {
+            background-color: rgba(216, 216, 216, 0.448);
+            height: 50px;
+            width: 50%;
+            border-radius: 8px;
+            top: 10px;
+            transform: translateX(50%);
+        }
+    }
+
+    .header > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}

@@ -28,13 +28,16 @@ export function useCarousel( {children, slides} : CarouselProps ) {
             resistance = {true}
             resistanceRatio={0.3}  
             breakpoints={{
-                1000: {
+                1200: {
                     slidesPerView: slides,
-                    spaceBetween: 30
+                    spaceBetween: 20
                 },
-                300: {
-                    slidesPerView: slides - 1,
-                    spaceBetween: 10
+                800: {
+                    slidesPerView: slides === 3 ? slides - 2 : slides - 3,
+                },
+                0: {
+                    slidesPerView: slides === 3 ? slides - 2 : slides - 3 ,
+                    spaceBetween: 10,
                 } 
             }}
         >

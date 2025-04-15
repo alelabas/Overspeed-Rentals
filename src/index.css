@@ -30,3 +30,15 @@ body {
     padding: 30px;
     border-radius: 100px;
 }
+
+@media screen and (max-width: 600px) {
+    * {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+    
+}

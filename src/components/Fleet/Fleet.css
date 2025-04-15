@@ -239,3 +239,41 @@
     transition: all 0.7s ease-in-out;
     transform: translateY(5px);
 }
+
+@media screen and (max-width: 600px) {
+    .fleet-section {
+        margin-left: 20px;
+    }
+
+    .fleet-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .fleet-card:hover .button-view-more {
+        transform: none;
+        opacity: 1;
+        transition: none;
+        max-height: 0;
+    }
+
+    .button-view-more {
+        opacity: 1;
+        height: 50px;
+        padding: 10px;
+        margin-bottom: 20px;
+        transform: none;
+    }
+
+    .gallery-container:hover .click-to-see-more {
+        transform: none;
+        opacity: 1;
+        transition: none;
+    }
+
+    .click-to-see-more {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
