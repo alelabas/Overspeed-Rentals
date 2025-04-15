@@ -41,6 +41,11 @@ body {
         text-align: center;
     }
 
+    #root {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .swiper-button-prev {
         --swiper-navigation-color: transparent;
         background-color: transparent;
