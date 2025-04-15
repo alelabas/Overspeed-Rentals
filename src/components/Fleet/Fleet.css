@@ -241,39 +241,22 @@
 }
 
 @media screen and (max-width: 600px) {
-    .fleet-section {
-        margin-left: 20px;
+
+    .fleet-card {
+        margin-left: 15%;
     }
 
-    .fleet-card:hover {
-        transform: none;
-        transition: none;
+    .fleet-header > h2 {
+        font-size: 2rem;
     }
 
-    .fleet-card:hover .button-view-more {
-        transform: none;
-        opacity: 1;
-        transition: none;
-        max-height: 0;
+    .fleet-header > p {
+        font-size: 1.4rem;
     }
 
-    .button-view-more {
-        opacity: 1;
-        height: 50px;
-        padding: 10px;
-        margin-bottom: 20px;
-        transform: none;
-    }
-
-    .gallery-container:hover .click-to-see-more {
-        transform: none;
-        opacity: 1;
-        transition: none;
-    }
-
-    .click-to-see-more {
-        opacity: 1;
-        transform: none;
-        transition: none;
+    .fleet-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

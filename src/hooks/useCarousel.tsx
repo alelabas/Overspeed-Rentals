@@ -33,10 +33,10 @@ export function useCarousel( {children, slides} : CarouselProps ) {
                     spaceBetween: 20
                 },
                 800: {
-                    slidesPerView: slides === 3 ? slides - 2 : slides - 3,
+                    slidesPerView: 1,
                 },
                 0: {
-                    slidesPerView: slides === 3 ? slides - 2 : slides - 3 ,
+                    slidesPerView: 1,
                     spaceBetween: 10,
                 } 
             }}

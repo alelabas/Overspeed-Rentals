@@ -48,3 +48,25 @@
     margin: 20px 0px;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 600px) {
+    .clients-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100vh;
+    }
+
+    .clients-section-title {
+        width: 100%;
+    }
+
+    .clients-section-carousel {
+        width: 100%;
+        margin: 0;
+    }
+
+    .image-carousel {
+        height: 400px;
+    }
+}

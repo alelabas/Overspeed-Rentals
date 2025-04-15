@@ -38,6 +38,9 @@
         position: sticky;
         top: 0; 
         height: 80px;
+        animation: adjust-header linear both;
+        animation-timeline: scroll();
+        animation-range: 0 100px;
     }
 
     @keyframes adjust-header {

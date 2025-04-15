@@ -45,4 +45,12 @@
     .hero-section {
         background-position: center;
     }
+
+    .hero-contact > h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-contact > p {
+        font-size: 1.4rem;
+    }
 }

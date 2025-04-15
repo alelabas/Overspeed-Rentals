@@ -14,7 +14,7 @@ export const FAQ: React.FC<FAQProps> = ({faq, handleFAQ}) => {
             onClick={() => handleFAQ(faq.id)}
         >
             <div className="faq-question">
-                {faq.question}
+                <h3>{faq.question}</h3>
             </div>
             <div className="faq-response">
                 {faq.response}

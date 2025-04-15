@@ -40,5 +40,15 @@ body {
     h2, p {
         text-align: center;
     }
-    
+
+    .swiper-button-prev {
+        --swiper-navigation-color: transparent;
+        background-color: transparent;
+    }
+
+    .swiper-button-next {
+        --swiper-navigation-color: transparent;
+        background-color: transparent;
+    }
+
 }

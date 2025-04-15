@@ -20,7 +20,7 @@ export function Fleet() {
     const carousel = useCarousel({children, slides: 5})
 
 	return (
-        <section>
+        <section className="fleet-wrapper">
             <div className="fleet-header">
                 <h2>Our Fleet</h2>
                 <p>Choose from our wide selection of vehicles</p>
