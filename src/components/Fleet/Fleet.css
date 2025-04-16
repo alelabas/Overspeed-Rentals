@@ -242,8 +242,13 @@
 
 @media screen and (max-width: 600px) {
 
+    .fleet-section {
+        margin-left: 0;
+        width: 100%;
+    }
+
     .fleet-card {
-        transform: translateX(25%);
+        margin: 20px auto; 
     }
 
     .fleet-header > h2 {

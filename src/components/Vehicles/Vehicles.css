@@ -82,28 +82,33 @@
     }
 
     .types-container {
-        margin: 0;
-    }
-    
-    .types-text {
-        flex-direction: column;
-        align-items: center;
-        margin: 30px 0px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        position: relative;
     }
 
     .type-image {
         width: 350px;
+        position: relative;
+        margin: 0 auto;
     }
 
     .type-inner-text {
         position: absolute;
         top: 5%;
-        transform: translateX(40%);
-        display: flex;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    .types-text {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
+        margin: 30px 0px;
     }
 
     .type-inner-text > h3::after {
