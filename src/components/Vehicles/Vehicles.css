@@ -101,7 +101,7 @@
         top: 5%;
         left: 50%;
         transform: translateX(-50%);
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
@@ -114,6 +114,14 @@
     .type-inner-text > h3::after {
         content: '';
         background-color: transparent;
+    }
+
+    .type-inner-text > h3 {
+        color: #333;
+    }
+
+    .type-inner-text > p {
+        color: white;
     }
     
 }

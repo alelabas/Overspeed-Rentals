@@ -119,7 +119,8 @@
     }
 
     .button-list > li {
-        list-style: none
+        list-style: none;
+        color: black;
     }
 
     .button-list:hover {
