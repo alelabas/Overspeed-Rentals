@@ -24,7 +24,7 @@
     height: auto;
     z-index: -1;
     inset: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
     filter: blur(40px);
 }
 
@@ -42,7 +42,6 @@
     margin-bottom: 40px;
 
 }
-
 
 .stat-clients {
     width: 250px;
@@ -94,4 +93,38 @@
 .about-us-content > p {
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+
+    .why-us-section {
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .stats-section {
+        gap: 30px;
+        width: auto;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fundaments-section {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .fundaments-section > span {
+        gap: 20px;
+    }
+
+    .span-wrapper > svg {
+        width: 25px;
+    }
+
+    .about-us-content {
+        width: 100%;
+    }
 }

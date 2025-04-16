@@ -6,7 +6,7 @@ import React from "react";
 
 export function WhyUs() {
     return (
-        <IconContext.Provider value={{size: '40', color: 'green'}}>
+        <IconContext.Provider value={{size: '40', color: '#00ff00'}}>
             <section className="why-us-section">
                 <h2>Why Us?</h2>
                 <article className="stats-section">
