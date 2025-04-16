@@ -40,7 +40,7 @@
         height: 80px;
         animation: adjust-header linear both;
         animation-timeline: scroll();
-        animation-range: 0 150px;
+        animation-range: 0 100px;
     }
 
     @keyframes adjust-header {

@@ -243,7 +243,7 @@
 @media screen and (max-width: 600px) {
 
     .fleet-card {
-        margin-left: 15%;
+        transform: translateX(25%);
     }
 
     .fleet-header > h2 {
@@ -258,5 +258,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .button-view-more {
+        width: 80%;
     }
 }

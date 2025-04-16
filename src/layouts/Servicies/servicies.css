@@ -81,3 +81,52 @@
     background-color: rgba(224, 224, 224, 0.944);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
+
+@media screen and (max-width: 600px) {
+    
+    .services-container {
+        display: flex;
+        flex-flow: row wrap;
+        height: auto;
+        background-image: none;
+        mask-image: none;
+    }
+
+    .services-group {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .service-container {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .service-container > h3 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    .service-container > h3::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 44px;
+        height: 4px;
+        background: rgb(255, 60, 60);
+        margin: 0 auto;
+    }
+
+    .service-container:hover > h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

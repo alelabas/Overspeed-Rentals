@@ -37,7 +37,7 @@ export function useCarousel( {children, slides} : CarouselProps ) {
                 },
                 0: {
                     slidesPerView: 1,
-                    spaceBetween: 10,
+                    spaceBetween: 0,
                 } 
             }}
         >
