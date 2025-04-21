@@ -55,7 +55,7 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 			<dialog ref={refDialog} className="dialog-modal" closedby="any">
 				<div className="dialog-content">
 					<div className="close-menu">
-						<form method="dialog"><button className="close-button"><IoMdClose size={'25px'}/></button></form>
+						<form method="dialog"><button className="close-button"><IoMdClose color={"black"} size={'25px'}/></button></form>
 					</div>
 					
 					<div className="main-content">
