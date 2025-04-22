@@ -203,6 +203,7 @@
     font-weight: 600;
     cursor: pointer;
     bottom: 10px;
+    text-decoration: none;
 }   
 
 .modal-button:hover {

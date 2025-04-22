@@ -13,21 +13,12 @@ export function Footer () {
             <footer className="page-footer">
                 <section className="site-map-section">
                     <div className="content-wrap">
-                        <h3>Business</h3>
-                        <ul className="business-list">
-                            <button className="button-list"><li>Return Policy</li></button>
-                            <button className="button-list"><li>Privacy Policy</li></button>
-                            <button className="button-list"><li>Terms and Condition</li></button>
-                            <button className="button-list"><li>Rental Agreement</li></button>
-                        </ul>
-                    </div>
-                    <div className="content-wrap">
-                        <h3>User</h3>
-                        <ul className="user-list">
-                            <button className="button-list"><li>FAQs</li></button>
-                            <button className="button-list"><li>My Reservations</li></button>
-                            <button className="button-list"><li>Cancel Reservations</li></button>
-                            <button className="button-list"><li>Requests, Complaints and Suggestions</li></button>
+                        <h3>Contact Us!</h3>
+                        <ul className="contact-icons">
+                            <a href="https://www.instagram.com/overspeedrentals/" target="_blank" className="button-icons"><li><FaInstagram /></li></a>
+                            <a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="button-icons"><li><FaWhatsapp /></li></a>
+                            <a href="" className="button-icons"><li><FiMessageCircle /></li></a>
+                            <a href="" className="button-icons"><li><MdEmail /></li></a>
                         </ul>
                     </div>
                     <div className="content-wrap">
@@ -37,15 +28,6 @@ export function Footer () {
                             <li><FaCcMastercard /></li>
                             <li><FaCcVisa /></li>
                             <li><SiMercadopago /></li>
-                        </ul>
-                    </div>
-                    <div className="content-wrap">
-                        <h3>Contact Us!</h3>
-                        <ul className="contact-icons">
-                            <a href="https://www.instagram.com/overspeedrentals/" target="_blank" className="button-icons"><li><FaInstagram /></li></a>
-                            <a className="button-icons"><li><FaWhatsapp /></li></a>
-                            <a className="button-icons"><li><FiMessageCircle /></li></a>
-                            <a className="button-icons"><li><MdEmail /></li></a>
                         </ul>
                     </div>
                 </section>

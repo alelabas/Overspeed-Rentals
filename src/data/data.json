@@ -179,8 +179,7 @@
                 "assets/Clients/clientImage4.webp",
                 "assets/Clients/clientImage5.webp",
                 "assets/Clients/clientImage6.webp",
-                "assets/Clients/clientImage7.webp",
-                "assets/Clients/clientImage1.webp"
+                "assets/Clients/clientImage7.webp"
             ]
         }
     ],
@@ -239,44 +238,44 @@
             "id": 1,
             "type": "Economic Small",
             "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
-            "image": "assets/VehicleTypes/kiario.jpg"
+            "image": "assets/VehicleTypes/kiario.webp"
         },
         {
             "id": 2,
             "type": "Economic Large",
             "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
-            "image": "assets/VehicleTypes/vwpassat.jpg"
+            "image": "assets/VehicleTypes/vwpassat.webp"
         },
         {
             "id": 3,
             "type": "Convertible",
             "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
-            "image": "assets/VehicleTypes/fordmustang.png"
+            "image": "assets/VehicleTypes/fordmustang.webp"
              
         },
         {
             "id": 4,
             "type": "Sports Car",
             "description": "Add a some emotion driving a great looking and performing car for your vacations",
-            "image": "assets/VehicleTypes/vwgolfgti.png" 
+            "image": "assets/VehicleTypes/vwgolfgti.webp" 
         },
         {
             "id": 5,
             "type": "SUVs",
             "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
-            "image": "assets/VehicleTypes/porschemacan.png" 
+            "image": "assets/VehicleTypes/porschemacan.webp" 
         },
         {
             "id": 6,
             "type": "Mini Van",
             "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
-            "image": "assets/VehicleTypes/grandcaravan.png"
+            "image": "assets/VehicleTypes/grandcaravan.webp"
         },
         {
             "id": 7,
             "type": "Electric",
             "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
-            "image": "assets/VehicleTypes/teslamodely.png"
+            "image": "assets/VehicleTypes/teslamodely.webp"
         }
     ]
 }

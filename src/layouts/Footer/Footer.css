@@ -2,8 +2,8 @@
     background-color: #d5d0cda1;
     height: auto;
     display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
+    flex-flow: column;
+    align-items: center;
     justify-content: center;
     margin-top: 50px;
     padding: 40px;
@@ -13,7 +13,7 @@
 
 .site-map-section {
     display: flex;
-    gap: 100px;
+    gap: 200px;
 }   
 
 .content-wrap > h3 {
@@ -25,7 +25,7 @@
 .content-wrap {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .content-wrap > ul {

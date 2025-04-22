@@ -69,7 +69,7 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 							<h4><PiApplePodcastsLogo/> Apple Car Play / Android Auto</h4>
 							<h4><PiEngine/> Engine: {vehicle.engine}</h4>
 							<h4><TbAutomaticGearbox/> Automatic Transmition</h4>
-							<button className="modal-button">Check Availability</button>
+							<a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="modal-button">Check Availability</a>
 						</div>
 					</div>
 				</div>	
