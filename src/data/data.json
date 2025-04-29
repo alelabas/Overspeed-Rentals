@@ -183,99 +183,202 @@
             ]
         }
     ],
-    "FAQs" : [
+    "FAQs" : 
         {
-            "id": 0,
-            "question" : "How do I rent a car?",
-            "response" : "You can rent a car from our website or message us on our social media",
-            "show" : false
+            "eng" : [
+                {
+                    "id": 0,
+                    "question" : "How do I rent a car?",
+                    "response" : "You can rent a car from our website or message us on our social media",
+                    "show" : false
+                },
+                {
+                    "id": 1,
+                    "question" : "What happens if I get involved in an accident?",
+                    "response" : "Whenever you rent a car you have to pay a deposit. In case of an accident, all of our cars have insurance, so you will only loose your deposit",
+                    "show" : false
+                },
+                {
+                    "id": 2,
+                    "question" : "How do I return a vehicle",
+                    "response" : "You can arrange a Pick-Up location or return the car to us. The only thing you have to care about is returning the car with the same fuel level that you received in the car",
+                    "show" : false
+                },
+                {
+                    "id": 3,
+                    "question" : "How does the renting combos work?",
+                    "response" : "Let's say that you came to Miami with a lot of luggage that wont fit a sports car. We can arrange a switch of cars for some days. The first car can be an SUV, which you can use for the days you want and whenver you want we can arrange a switch to another car",
+                    "show" : false
+                },
+                {
+                    "id": 4,
+                    "question" : "How do I pay?",
+                    "response" : "Once you make a reservation, you will be charge with a reservation fee and when you arrive here you pay the rest, in whatever payment method you prefer",
+                    "show" : false
+                },
+                {
+                    "id": 5,
+                    "question" : "Do I need an International license to drive in Miami?",
+                    "response" : "No. In the state of Miami-Dade you can drive with the license of your country, but just in Miami-Dade. For other states you must ask us",
+                    "show" : false
+                },
+                {
+                    "id": 6,
+                    "question" : "Do I need to pay a deposit?",
+                    "response" : "Yes. You have to pay a deposit of $500, which will be returned to you once you return the car",
+                    "show" : false
+                },
+                {
+                    "id": 7,
+                    "question" : "What happens if I get a ticket?",
+                    "response" : "You are responsible for any tickets you get while driving the car. We will charge you the amount of the ticket plus a $50 fee",
+                    "show" : false
+                }
+            ],
+            "esp" : [
+                {
+                    "id": 0,
+                    "question" : "¿Cómo alquilo un coche?",
+                    "response" : "Puedes alquilar un coche desde nuestra página web o enviarnos un mensaje en nuestras redes sociales",
+                    "show" : false
+                },
+                {
+                    "id": 1,
+                    "question" : "¿Qué pasa si tengo un accidente?",
+                    "response" : "Siempre que alquilas un coche tienes que pagar un depósito. En caso de accidente, todos nuestros coches tienen seguro, así que solo perderás tu depósito",
+                    "show" : false
+                },
+                {
+                    "id": 2,
+                    "question" : "¿Cómo devuelvo el vehículo?",
+                    "response" : "Puedes acordar una ubicación de recogida o devolver el coche a nosotros. Lo único de lo que tienes que preocuparte es devolver el coche con el mismo nivel de combustible con el que lo recibiste",
+                    "show" : false
+                },
+                {
+                    "id": 3,
+                    "question" : "¿Cómo funcionan los combos de alquiler?",
+                    "response" : "Digamos que llegaste a Miami con mucho equipaje que no cabe en un coche deportivo. Podemos organizar un cambio de coches por algunos días. El primer coche puede ser un SUV, que puedes usar durante los días que quieras y cuando quieras podemos organizar un cambio a otro coche",
+                    "show" : false
+                },
+                {
+                    "id": 4,
+                    "question" : "¿Cómo pago?",
+                    "response" : "Una vez que hagas una reserva, se te cobrará una tarifa de reserva y cuando llegues aquí pagarás el resto, en cualquier método de pago que prefieras",
+                    "show" : false
+                },
+                {
+                    "id": 5,
+                    "question" : "¿Necesito una licencia internacional para conducir en Miami?",
+                    "response" : "No. En el estado de Miami-Dade puedes conducir con la licencia de tu país, pero solo en Miami-Dade. Para otros estados debes preguntarnos",
+                    "show" : false
+                },
+                {
+                    "id": 6,
+                    "question" : "¿Necesito pagar un depósito?",
+                    "response" : "Sí. Tienes que pagar un depósito de $500, que te será devuelto una vez devuelvas el coche",
+                    "show" : false
+                },
+                {
+                    "id": 7,
+                    "question" : "¿Qué pasa si me multan?",
+                    "response" : "Eres responsable de cualquier multa que recibas mientras conduces el coche. Te cobraremos el monto de la multa más una tarifa de $50",
+                    "show" : false
+                }
+            ]
         },
-        {
-            "id": 1,
-            "question" : "What happens if I get involved in an accident?",
-            "response" : "Whenever you rent a car you have to pay a deposit. In case of an accident, all of our cars have insurance, so you will only loose your deposit",
-            "show" : false
-        },
-        {
-            "id": 2,
-            "question" : "How do I return a vehicle",
-            "response" : "You can arrange a Pick-Up location or return the car to us. The only thing you have to care about is returning the car with the same fuel level that you received in the car",
-            "show" : false
-        },
-        {
-            "id": 3,
-            "question" : "How does the renting combos work?",
-            "response" : "Let's say that you came to Miami with a lot of luggage that wont fit a sports car. We can arrange a switch of cars for some days. The first car can be an SUV, which you can use for the days you want and whenver you want we can arrange a switch to another car",
-            "show" : false
-        },
-        {
-            "id": 4,
-            "question" : "How do I pay?",
-            "response" : "Once you make a reservation, you will be charge with a reservation fee and when you arrive here you pay the rest, in whatever payment method you prefer",
-            "show" : false
-        },
-        {
-            "id": 5,
-            "question" : "Do I need an International license to drive in Miami?",
-            "response" : "No. In the state of Miami-Dade you can drive with the license of your country, but just in Miami-Dade. For other states you must ask us",
-            "show" : false
-        },
-        {
-            "id": 6,
-            "question" : "Do I need to pay a deposit?",
-            "response" : "Yes. You have to pay a deposit of $500, which will be returned to you once you return the car",
-            "show" : false
-        },
-        {
-            "id": 7,
-            "question" : "What happens if I get a ticket?",
-            "response" : "You are responsible for any tickets you get while driving the car. We will charge you the amount of the ticket plus a $50 fee",
-            "show" : false
-        }
-    ],
-    "vehicleTypes" : [
-        {
-            "id": 1,
-            "type": "Economic Small",
-            "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
-            "image": "assets/VehicleTypes/kiario.webp"
-        },
-        {
-            "id": 2,
-            "type": "Economic Large",
-            "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
-            "image": "assets/VehicleTypes/vwpassat.webp"
-        },
-        {
-            "id": 3,
-            "type": "Convertible",
-            "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
-            "image": "assets/VehicleTypes/fordmustang.webp"
-             
-        },
-        {
-            "id": 4,
-            "type": "Sports Car",
-            "description": "Add a some emotion driving a great looking and performing car for your vacations",
-            "image": "assets/VehicleTypes/vwgolfgti.webp" 
-        },
-        {
-            "id": 5,
-            "type": "SUVs",
-            "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
-            "image": "assets/VehicleTypes/porschemacan.webp" 
-        },
-        {
-            "id": 6,
-            "type": "Mini Van",
-            "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
-            "image": "assets/VehicleTypes/grandcaravan.webp"
-        },
-        {
-            "id": 7,
-            "type": "Electric",
-            "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
-            "image": "assets/VehicleTypes/teslamodely.webp"
-        }
-    ]
+
+    "vehicleTypes" :    
+    {
+        "eng" : [
+            {
+                "id": 1,
+                "type": "Economic Small",
+                "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
+                "image": "assets/VehicleTypes/kiario.webp"
+            },
+            {
+                "id": 2,
+                "type": "Economic Large",
+                "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
+                "image": "assets/VehicleTypes/vwpassat.webp"
+            },
+            {
+                "id": 3,
+                "type": "Convertible",
+                "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
+                "image": "assets/VehicleTypes/fordmustang.webp"
+                
+            },
+            {
+                "id": 4,
+                "type": "Sports Car",
+                "description": "Add a some emotion driving a great looking and performing car for your vacations",
+                "image": "assets/VehicleTypes/vwgolfgti.webp" 
+            },
+            {
+                "id": 5,
+                "type": "SUVs",
+                "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
+                "image": "assets/VehicleTypes/porschemacan.webp" 
+            },
+            {
+                "id": 6,
+                "type": "Mini Van",
+                "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
+                "image": "assets/VehicleTypes/grandcaravan.webp"
+            },
+            {
+                "id": 7,
+                "type": "Electric",
+                "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
+                "image": "assets/VehicleTypes/teslamodely.webp"
+            }
+        ],
+       
+        "esp" : [
+            {
+                "id": 1,
+                "type": "Económico Pequeño",
+                "description": "Un coche pequeño, barato y económico perfecto para familias de 3 con poco equipaje",
+                "image": "assets/VehicleTypes/kiario.webp"
+            },
+            {
+                "id": 2,
+                "type": "Económico Grande",
+                "description": "Un coche grande, barato y económico perfecto para familias de 4 con algo de equipaje",
+                "image": "assets/VehicleTypes/vwpassat.webp"
+            },
+            {
+                "id": 3,
+                "type": "Convertible",
+                "description": "El tipo de vehículo perfecto para disfrutar Miami al máximo.",
+                "image": "assets/VehicleTypes/fordmustang.webp"
+                
+            },
+            {
+                "id": 4,
+                "type": "Coche Deportivo",
+                "description": "Agrega un poco de emoción conduciendo un coche de gran aspecto y rendimiento para tus vacaciones",
+                "image": "assets/VehicleTypes/vwgolfgti.webp" 
+            },
+            {
+                "id": 5,
+                "type": "SUVs",
+                "description": "El ajuste perfecto para una pequeña familia. Gran combinación de comodidad y espacio para viajes largos y compras",
+                "image": "assets/VehicleTypes/porschemacan.webp" 
+            },
+            {
+                "id": 6,
+                "type": "Mini Van",
+                "description": "Coche perfecto para familias grandes con mucho equipaje. Perfecto para ir de compras y moverse por la ciudad",
+                "image": "assets/VehicleTypes/grandcaravan.webp"
+            },
+            {
+                "id": 7,
+                "type": "Eléctrico",
+                "description": "Un coche ecológico, moderno y barato, ideal para moverse por la ciudad de forma económica y tranquila",
+                "image": "assets/VehicleTypes/teslamodely.webp"
+            }
+        ]
+    }
 }

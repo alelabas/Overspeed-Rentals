@@ -3,7 +3,7 @@ import { VehicleTypes } from "../types/types"
 
 export function useVehicleTypes (): VehicleTypes[] {
     
-    const vehicleTypes: VehicleTypes[] = dataVehicles.vehicleTypes
+    const vehicleTypes: VehicleTypes[] = dataVehicles.vehicleTypes.eng
 
     return vehicleTypes.map( vehicle => ({
         id: vehicle.id,

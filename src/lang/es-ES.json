@@ -1,0 +1,43 @@
+{
+    "app.hero.paragraph" : "Nuestra misión es hacer que tus vacaciones sean <strong>únicas</strong> e <strong>inolvidables</strong>, donde no tendrás preocupaciones ni inquietudes. Haremos todo lo posible para que <strong>disfrutes</strong> y <br/> <strong>Conduzcas Miami a Tu Manera<strong>",
+    "app.hero.button" : "Reservar Ahora",
+    
+    "app.fleet.title" : "Nuestra Flota",
+    "app.fleet.subtitle" : "Elige entre nuestra amplia selección de vehículos",
+    "app.fleet.button" : "Ver Más",
+    "app.fleet.vehicle.color" : "Color",
+    "app.fleet.vehicle.passengers" : "Pasajeros",
+    "app.fleet.vehicle.engine": "Motor",
+    "app.fleet.vehicle.transmission": "Transmisión Automática",
+    
+    "app.servicies.title" : "Nuestros Servicios",
+    "app.servicies.road" : "Asistencia en Carretera",
+    "app.servicies.cars" : "Autos Deportivos",
+    "app.servicies.service" : "Servicio 24/7",
+    "app.servicies.support" : "Soporte por Chat",
+    "app.servicies.delivery" : "Entrega y Recogida",
+    "app.servicies.airport" : "Servicio en el Aeropuerto",
+    "app.servicies.combos" : "Combos de Alquiler",
+    "app.servicies.location" : "Ubicación Premium",
+
+    "app.vehicles.title" : "Tipos de Vehículos para Alquilar",
+    "app.vehicles.subtitle" : "Si no estás seguro de qué vehículo se adapta a tus vacaciones, aquí tienes una guía para ver qué auto se ajusta mejor a tus planes. Puedes elegir entre estos tipos de autos para verificar disponibilidad y precios de nuestra flota.",
+
+    "app.whyus.title" : "¿Por Qué Nosotros?",
+    "app.whyus.trips" : "Viajes",
+    "app.whyus.miles" : "Millas Recorridas",
+    "app.whyus.reviews" : "Reseñas Positivas",
+    "app.whyus.fees" : "Sin Tarifas Ocultas, lo que ves aquí es lo que pagas",
+    "app.whyus.assistance" : "Asistencia 24/7 y seguros con cobertura total",
+    "app.whyus.reservations" : "Haz una reserva y paga el resto cuando recojas el auto",
+    "app.whyus.pickup" : "Recogida y Entrega directamente en tu puerta",
+    "app.whyus.guidance" : "Asistencia con cualquier inquietud de viaje",
+    "app.whyus.cars" : "Autos nuevos, limpios y en perfecto estado",
+    "app.whyus.content" : "Nuestro objetivo en <strong>OverSpeed Rentals</strong> es proporcionar a nuestros clientes el mejor servicio posible y hacer que su experiencia de alquiler de autos sea lo más <strong>fácil y conveniente</strong> posible. Ofrecemos <strong>tarifas competitivas</strong> y términos de alquiler flexibles para satisfacer las necesidades de nuestros clientes. Ya sea que necesites un auto por un día, una semana o más tiempo, tenemos <strong>el vehículo perfecto para ti</strong>. Contáctanos hoy para obtener más información sobre nuestros servicios de alquiler de autos y para reservar tu vehículo.",
+
+    "app.clients.title" : "Nuestros Clientes",
+    "app.clients.subtitle" : "Algunos ejemplos de clientes anteriores que depositaron su <strong>confianza</strong> en nosotros para brindarles la mejor experiencia en sus vacaciones y fueron recompensados con una experiencia <strong>de primera clase</strong>",
+
+    "app.footer.contact" : "¡Contáctanos!",
+    "app.footer.payments" : "Métodos de Pago"
+}

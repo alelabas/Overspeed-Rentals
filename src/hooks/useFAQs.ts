@@ -3,7 +3,7 @@ import { FAQs } from "../types/types"
 
 export function useFAQs () {
 
-    const faqs: FAQs[] = dataList.FAQs
+    const faqs: FAQs[] = dataList.FAQs.eng
 
     return faqs.map( faq => ({
         id: faq.id,
