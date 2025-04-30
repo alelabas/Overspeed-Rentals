@@ -3,6 +3,7 @@ import "yet-another-react-lightbox/styles.css";
 import Lightbox from "yet-another-react-lightbox";
 import Counter  from "yet-another-react-lightbox/plugins/counter";
 import "yet-another-react-lightbox/plugins/counter.css";
+import { FormattedMessage } from "react-intl";
 
 interface Props {
     vehicleImages: string[]
@@ -26,7 +27,7 @@ export function Gallery ( { vehicleImages, modalRef }: Props ) {
                 }}
                 className="click-to-see-more"
             >
-                Click to see more
+                <FormattedMessage id="app.fleet.button" defaultMessage="Click to see more" />
             </h4>
 
             <Lightbox 

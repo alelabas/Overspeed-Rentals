@@ -1,14 +1,16 @@
 {
-    "app.hero.paragraph" : "Our mission is to make your vacations <strong>unique</strong> and <strong>unforgettable</strong> where you won't have any worries or concerness. We will make everything happen so that you <strong>enjoy</strong> and <br/> <strong>Drive Miami Your Way<strong>",
+    "app.hero.paragraph" : "Our mission is to make your vacations unique and unforgettable where you won't have any worries or concerness. We will make everything happen so that you enjoy and Drive Miami Your Way",
     "app.hero.button" : "Book Now",
     
     "app.fleet.title" : "Our Fleet",
     "app.fleet.subtitle" : "Choose from our wide selection of vehicles",
     "app.fleet.button" : "See More",
-    "app.fleet.vehicle.color" : "Color",
-    "app.fleet.vehicle.passengers" : "Passengers",
-    "app.fleet.vehicle.engine": "Engine",
+    "app.fleet.vehicle.from" : "From ",
+    "app.fleet.vehicle.day" : "day",
+    "app.fleet.vehicle.passengers" : " Passengers",
+    "app.fleet.vehicle.engine": " Engine",
     "app.fleet.vehicle.transmission": "Automatic Transmission",
+    "app.fleet.vehicle.contact": "Contact Us",
     
     "app.servicies.title" : "Our Services",
     "app.servicies.road" : "Road Assistance",
@@ -33,10 +35,10 @@
     "app.whyus.pickup" : "Pick-up and Delivery straight out of your gate",
     "app.whyus.guidance" : "Assistance with any travelling concerns",
     "app.whyus.cars" : "Brand new, clean and mint cars",
-    "app.whyus.content" : "Our goal at <strong>OverSpeed Rentals</strong> is to provide our customers with the best possible service and make their car rental experience as <strong>easy and convenient</strong> as possible. We offer <strong>competitive rates</strong> and flexible rental terms to meet the needs of our customers. Whether you need a car for a day, a week, or longer, we have <strong>the perfect vehicle for you</strong>. Contact us today to learn more about our car rental services and to reserve your vehicle.",
+    "app.whyus.content" : "Our goal at OverSpeed Rentals is to provide our customers with the best possible service and make their car rental experience as easy and convenient as possible. We offer competitive rates and flexible rental terms to meet the needs of our customers. Whether you need a car for a day, a week, or longer, we have the perfect vehicle for you. Contact us today to learn more about our car rental services and to reserve your vehicle.",
 
     "app.clients.title" : "Our Clients",
-    "app.clients.subtitle" : "Some examples of previous customers that put on their <strong>trust</strong> on us, to provide the best experience for their vacations and were rewarded with a <strong>top of the notch</strong> experience",
+    "app.clients.subtitle" : "Some examples of previous customers that put on their trust on us, to provide the best experience for their vacations and were rewarded with a top of the notch experience",
 
     "app.footer.contact" : "Contact Us!",
     "app.footer.payments" : "Payment Methods" 

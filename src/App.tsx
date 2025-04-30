@@ -7,7 +7,7 @@ import { FAQs } from './components/FAQs/FAQs'
 import { Vehicles } from './components/Vehicles/Vehicles'
 import { WhyUs } from './layouts/WhyUs/WhyUs'
 import React from 'react'
-import { Hero } from './components/Hero/Hero'
+import { Hero } from './components/Hero/Hero' 
 
 export default function App(){
     return (

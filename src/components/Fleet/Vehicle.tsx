@@ -9,6 +9,7 @@ import { useRef } from "react";
 import { PiApplePodcastsLogo, PiEngine } from "react-icons/pi";
 import { TbAutomaticGearbox } from "react-icons/tb";
 import { Gallery } from "./Gallery";
+import { FormattedMessage } from "react-intl";
 
 export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 
@@ -45,11 +46,17 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 				</IconContext.Provider>
 			</div>
 			<p>
-				From <span className="vehicle-price">${vehicle.price}/day</span>{" "}
+				<FormattedMessage id="app.fleet.vehicle.from" defaultMessage="From" /> 
+				<span className="vehicle-price">
+					${vehicle.price}/
+					<FormattedMessage id="app.fleet.vehicle.day" defaultMessage="day" />
+				</span>{" "}
 				- <span className="discount-price">${vehicle.price + 40}</span>
 			</p>
 			<div className="button-view-more">
-				<button onClick={handleClick}>See more</button>
+				<button onClick={handleClick}>
+					<FormattedMessage id="app.fleet.button" defaultMessage="View More" />
+				</button>
 			</div>
 
 			<dialog ref={refDialog} className="dialog-modal" closedby="any">
@@ -64,12 +71,22 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 						</div>
 						<div className="data-vehicle-wrapper">
 							<h3>{vehicle.make} {vehicle.model} {vehicle.year}</h3>
-							<h4><MdOutlineInvertColors/> Color: {vehicle.color}</h4>
-							<h4><IoMdPeople /> Passengers: {vehicle.passengers}</h4>
+							<h4>
+								<IoMdPeople /> 	
+								<FormattedMessage id="app.fleet.vehicle.passengers" defaultMessage="Passengers"/> : {vehicle.passengers}
+							</h4>
 							<h4><PiApplePodcastsLogo/> Apple Car Play / Android Auto</h4>
-							<h4><PiEngine/> Engine: {vehicle.engine}</h4>
-							<h4><TbAutomaticGearbox/> Automatic Transmition</h4>
-							<a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="modal-button">Check Availability</a>
+							<h4>
+								<PiEngine/>
+								<FormattedMessage id="app.fleet.vehicle.engine" defaultMessage="Engine"/>: {vehicle.engine}
+							</h4>
+							<h4>
+								<TbAutomaticGearbox/>
+								<FormattedMessage id="app.fleet.vehicle.transmission" defaultMessage="Transmission"/>
+							</h4>
+							<a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="modal-button">
+								<FormattedMessage id="app.fleet.vehicle.contact" defaultMessage="Contact Us!" />
+							</a>
 						</div>
 					</div>
 				</div>	

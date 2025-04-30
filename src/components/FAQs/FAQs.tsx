@@ -1,15 +1,25 @@
 import { useFAQs } from "../../hooks/useFAQs";
-import { useState } from "react";
+import { useState, useEffect, useContext } from "react";
 import { FAQ } from "./FAQ";
 import "./FAQs.css"
 import React from "react";
 import { FAQs as FaqsTypes } from "../../types/types";
+import { langContext } from "../../context/langContext";
 
 export function FAQs () {
     
-    const [faqs, setFaqs] = useState<FaqsTypes[]>(useFAQs())
+    const lang = useContext(langContext)
+    const faqsData = useFAQs()
+    const [faqs, setFaqs] = useState<FaqsTypes[]>([])
+
+    useEffect(() => {
+        setFaqs(faqsData)
+    }, [lang?.lang])
 
     const handleFAQ = (index: number): void  => {
+        
+        if(faqs == null) return
+
         setFaqs(faqs.map((faq, i) => {
             if (i === index)
                 faq.show = !faq.show
@@ -19,8 +29,8 @@ export function FAQs () {
         }))
     }
 
-    const filteredFAQs = faqs.map((faq, index) => (
-        <FAQ key={index} faq={faq} handleFAQ={ handleFAQ } />
+    const filteredFAQs = faqs.map( faq => (
+        <FAQ key={faq.id} faq={faq} handleFAQ={ handleFAQ } />
     ))
     
     return (

@@ -4,6 +4,7 @@ import "./Fleet.css"
 import { SwiperSlide } from "swiper/react"
 import React from "react";
 import Vehicle from "./Vehicle.js";
+import { FormattedMessage } from "react-intl";
 
 
 export function Fleet() {
@@ -22,8 +23,12 @@ export function Fleet() {
 	return (
         <section className="fleet-wrapper">
             <div className="fleet-header">
-                <h2>Our Fleet</h2>
-                <p>Choose from our wide selection of vehicles</p>
+                <h2>
+                    <FormattedMessage id="app.fleet.title" defaultMessage="Fleet" />
+                </h2>
+                <p>
+                    <FormattedMessage id="app.fleet.subtitle" defaultMessage="Choose from our wide selection of vehicles" />
+                </p>
             </div>
 
             <div className="fleet-section">

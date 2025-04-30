@@ -1,5 +1,7 @@
 import React from "react";
 
+export type Lang = "esp" | "eng"
+
 export interface Cars {
     id: number;
     make: string;

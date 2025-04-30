@@ -52,7 +52,7 @@
 }
 
 .type-inner-text > h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
     font-weight: 800;
     color: white;
@@ -69,7 +69,7 @@
 }
 
 .type-inner-text > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: 600;
     color: rgb(113, 113, 113);
@@ -114,14 +114,5 @@
     .type-inner-text > h3::after {
         content: '';
         background-color: transparent;
-    }
-
-    .type-inner-text > h3 {
-        color: #333;
-    }
-
-    .type-inner-text > p {
-        color: white;
-    }
-    
+    }    
 }

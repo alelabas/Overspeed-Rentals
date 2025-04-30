@@ -193,6 +193,10 @@
     text-align: center;
 }
 
+.data-vehicle-wrapper > a {
+    text-align: center;
+}
+
 .modal-button {
     padding: 10px 40px;
     border-radius: 8px;
@@ -230,9 +234,10 @@
     color: white;
     position: absolute;
     bottom: 20%;
-    left: 18%;
+    left: 21%;
     padding: 10px;
     cursor: pointer;
+    width: 100px;
 }
 
 .gallery-container:hover .click-to-see-more {
@@ -252,6 +257,21 @@
         margin: 20px auto; 
     }
 
+    .fleet-card:hover .button-view-more {
+        max-height: 100px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: none;
+    }
+
+    .button-view-more {
+        max-height: 100px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: none;
+        margin-top: 20px;
+    }
+    
     .fleet-header > h2 {
         font-size: 2rem;
     }

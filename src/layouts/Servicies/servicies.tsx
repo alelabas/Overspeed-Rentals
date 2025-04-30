@@ -6,6 +6,7 @@ import { RiChatAiLine, RiRoadMapLine, Ri24HoursFill } from "react-icons/ri"
 import { CgAirplane } from "react-icons/cg"
 import { LiaCarAltSolid } from "react-icons/lia"
 import { IconContext } from "react-icons/lib"
+import { FormattedMessage } from "react-intl"
 
 export default function Servicies() {
 	return (
@@ -16,43 +17,61 @@ export default function Servicies() {
 			}}
 		>
 			<section className="servicies">
-				<h2>Our servicies</h2>
+				<h2>
+					<FormattedMessage id="app.servicies.title" defaultMessage="Servicies" />
+				</h2>
 				<section className="services-container">
 					<div className="services-group">
 						<div className="service-container">
 							<FaRoad />
-							<h3>Road Assistance</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.road" defaultMessage="Road Assistance" />
+							</h3>
 						</div>
 						<div className="service-container">
 							<IoCarSport />
-							<h3>Sports Cars</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.cars" defaultMessage="Car Assistance" />
+							</h3>
 						</div>
 						<div className="service-container">
 							<Ri24HoursFill />
-							<h3>24/7 Service</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.service" defaultMessage="24/7 Assistance" />	
+							</h3>
 						</div>
 						<div className="service-container">
 							<RiChatAiLine />
-							<h3>Chat Support</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.support" defaultMessage="Chat Support" />
+							</h3>
 						</div>
 					</div>
 
 					<div className="services-group">
 						<div className="service-container">
 							<RiRoadMapLine />
-							<h3>Delivery & Pick-Up</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.delivery" defaultMessage="Delivery & Pick-Up" />
+							</h3>
 						</div>
 						<div className="service-container">
 							<CgAirplane />
-							<h3>Airport Delivery</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.airport" defaultMessage="Airport service" />
+							</h3>
 						</div>
 						<div className="service-container">
 							<LiaCarAltSolid />
-							<h3>Renting Combos</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.combos" defaultMessage="Vehicle Combos" />	
+							</h3>
 						</div>
 						<div className="service-container">
 							<FaBuilding />
-							<h3>Premium Location</h3>
+							<h3>
+								<FormattedMessage id="app.servicies.location" defaultMessage="Premium Location" />
+							</h3>
 						</div>
 					</div>
 				</section>

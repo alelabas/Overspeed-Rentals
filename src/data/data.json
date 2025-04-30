@@ -5,7 +5,6 @@
             "make": "Ford",
             "model": "Mustang Convertible",
             "year": 2018,
-            "color": "White",
             "milleage": 115000,
             "images" : [
                 "assets/CarImages/mustangWhite/mustangblanco1.webp",
@@ -26,7 +25,6 @@
             "make": "Ford",
             "model":"Mustang Convertible",
             "year": 2019,
-            "color": "Red",
             "milleage": 43000,
             "images": [
                 "assets/CarImages/mustangRed/mustangrojo1.webp",
@@ -48,7 +46,6 @@
             "make": "Porsche",
             "model": "Macan",
             "year": 2018,
-            "color": "Blue",
             "milleage": 95000,
             "images" : [
                 "assets/CarImages/porscheMacan/porsche1.webp",
@@ -70,7 +67,6 @@
             "make": "VW",
             "model": "Golf GTI",
             "year": 2018,
-            "color": "Blue",
             "milleage": 55000,
             "images" : [
                 "assets/CarImages/vwGolfGTI/vwgolf1.webp",
@@ -90,7 +86,6 @@
             "make": "VW",
             "model":"Passat",
             "year": 2015,
-            "color": "Silver",
             "milleage": 67000,
             "images": [
                 "assets/CarImages/vwPassat/vwpassat1.webp",
@@ -111,7 +106,6 @@
             "make": "BMW",
             "model":"2 Series Convertible",
             "year": 2019,
-            "color": "white",
             "milleage": 43000,
             "images": [
                 "assets/CarImages/bmw220FL.webp",
@@ -132,7 +126,6 @@
             "make": "BMW",
             "model":"M235I",
             "year": 2019,
-            "color": "Green",
             "milleage": 43000,
             "images": [
                 "assets/CarImages/bmwM235FL.jpg",
@@ -153,7 +146,6 @@
             "make": "Honda",
             "model":"Pilot",
             "year": 2019,
-            "color": "White",
             "milleage": 43000,
             "images": [
                 "assets/CarImages/hondaPilotFL.webp",
@@ -183,6 +175,7 @@
             ]
         }
     ],
+
     "FAQs" : 
         {
             "eng" : [
@@ -235,6 +228,7 @@
                     "show" : false
                 }
             ],
+            
             "esp" : [
                 {
                     "id": 0,
@@ -288,97 +282,97 @@
         },
 
     "vehicleTypes" :    
-    {
-        "eng" : [
-            {
-                "id": 1,
-                "type": "Economic Small",
-                "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
-                "image": "assets/VehicleTypes/kiario.webp"
-            },
-            {
-                "id": 2,
-                "type": "Economic Large",
-                "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
-                "image": "assets/VehicleTypes/vwpassat.webp"
-            },
-            {
-                "id": 3,
-                "type": "Convertible",
-                "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
-                "image": "assets/VehicleTypes/fordmustang.webp"
-                
-            },
-            {
-                "id": 4,
-                "type": "Sports Car",
-                "description": "Add a some emotion driving a great looking and performing car for your vacations",
-                "image": "assets/VehicleTypes/vwgolfgti.webp" 
-            },
-            {
-                "id": 5,
-                "type": "SUVs",
-                "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
-                "image": "assets/VehicleTypes/porschemacan.webp" 
-            },
-            {
-                "id": 6,
-                "type": "Mini Van",
-                "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
-                "image": "assets/VehicleTypes/grandcaravan.webp"
-            },
-            {
-                "id": 7,
-                "type": "Electric",
-                "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
-                "image": "assets/VehicleTypes/teslamodely.webp"
-            }
-        ],
-       
-        "esp" : [
-            {
-                "id": 1,
-                "type": "Económico Pequeño",
-                "description": "Un coche pequeño, barato y económico perfecto para familias de 3 con poco equipaje",
-                "image": "assets/VehicleTypes/kiario.webp"
-            },
-            {
-                "id": 2,
-                "type": "Económico Grande",
-                "description": "Un coche grande, barato y económico perfecto para familias de 4 con algo de equipaje",
-                "image": "assets/VehicleTypes/vwpassat.webp"
-            },
-            {
-                "id": 3,
-                "type": "Convertible",
-                "description": "El tipo de vehículo perfecto para disfrutar Miami al máximo.",
-                "image": "assets/VehicleTypes/fordmustang.webp"
-                
-            },
-            {
-                "id": 4,
-                "type": "Coche Deportivo",
-                "description": "Agrega un poco de emoción conduciendo un coche de gran aspecto y rendimiento para tus vacaciones",
-                "image": "assets/VehicleTypes/vwgolfgti.webp" 
-            },
-            {
-                "id": 5,
-                "type": "SUVs",
-                "description": "El ajuste perfecto para una pequeña familia. Gran combinación de comodidad y espacio para viajes largos y compras",
-                "image": "assets/VehicleTypes/porschemacan.webp" 
-            },
-            {
-                "id": 6,
-                "type": "Mini Van",
-                "description": "Coche perfecto para familias grandes con mucho equipaje. Perfecto para ir de compras y moverse por la ciudad",
-                "image": "assets/VehicleTypes/grandcaravan.webp"
-            },
-            {
-                "id": 7,
-                "type": "Eléctrico",
-                "description": "Un coche ecológico, moderno y barato, ideal para moverse por la ciudad de forma económica y tranquila",
-                "image": "assets/VehicleTypes/teslamodely.webp"
-            }
-        ]
-    }
+        {
+            "eng" : [
+                {
+                    "id": 1,
+                    "type": "Economic Small",
+                    "description": "A small, cheap and economic car perfect for families of 3 with little luggage",
+                    "image": "assets/VehicleTypes/kiario.webp"
+                },
+                {
+                    "id": 2,
+                    "type": "Economic Large",
+                    "description": "A large, cheap and economic car perfect for families of 4 with some luggage",
+                    "image": "assets/VehicleTypes/vwpassat.webp"
+                },
+                {
+                    "id": 3,
+                    "type": "Convertible",
+                    "description": "The perfect type of vehicle to enjoy Miami to it's full potential.",
+                    "image": "assets/VehicleTypes/fordmustang.webp"
+                    
+                },
+                {
+                    "id": 4,
+                    "type": "Sports Car",
+                    "description": "Add a some emotion driving a great looking and performing car for your vacations",
+                    "image": "assets/VehicleTypes/vwgolfgti.webp" 
+                },
+                {
+                    "id": 5,
+                    "type": "SUVs",
+                    "description": "The perfect fit for a small family. Great combination of comfort and space for long travels and shopping",
+                    "image": "assets/VehicleTypes/porschemacan.webp" 
+                },
+                {
+                    "id": 6,
+                    "type": "Mini Van",
+                    "description": "Perfect car for big families with a lot of luggage. Perfect for shopping and moving around",
+                    "image": "assets/VehicleTypes/grandcaravan.webp"
+                },
+                {
+                    "id": 7,
+                    "type": "Electric",
+                    "description": "A cheap ecological and modern car, great for moving around cheaply and calmly",
+                    "image": "assets/VehicleTypes/teslamodely.webp"
+                }
+            ],
+        
+            "esp" : [
+                {
+                    "id": 1,
+                    "type": "Económico Chico",
+                    "description": "Un coche pequeño, barato y económico perfecto para familias de 3 con poco equipaje",
+                    "image": "assets/VehicleTypes/kiario.webp"
+                },
+                {
+                    "id": 2,
+                    "type": "Económico Grande",
+                    "description": "Un coche grande, barato y económico perfecto para familias de 4 con algo de equipaje",
+                    "image": "assets/VehicleTypes/vwpassat.webp"
+                },
+                {
+                    "id": 3,
+                    "type": "Convertible",
+                    "description": "El tipo de vehículo perfecto para disfrutar Miami al máximo.",
+                    "image": "assets/VehicleTypes/fordmustang.webp"
+                    
+                },
+                {
+                    "id": 4,
+                    "type": "Coche Deportivo",
+                    "description": "Agrega un poco de emoción conduciendo un coche de gran aspecto y rendimiento para tus vacaciones",
+                    "image": "assets/VehicleTypes/vwgolfgti.webp" 
+                },
+                {
+                    "id": 5,
+                    "type": "SUVs",
+                    "description": "El ajuste perfecto para una pequeña familia. Gran combinación de comodidad y espacio para viajes largos y compras",
+                    "image": "assets/VehicleTypes/porschemacan.webp" 
+                },
+                {
+                    "id": 6,
+                    "type": "Mini Van",
+                    "description": "Coche perfecto para familias grandes con mucho equipaje. Perfecto para ir de compras y moverse por la ciudad",
+                    "image": "assets/VehicleTypes/grandcaravan.webp"
+                },
+                {
+                    "id": 7,
+                    "type": "Eléctrico",
+                    "description": "Un coche ecológico, moderno y barato, ideal para moverse por la ciudad de forma económica y tranquila",
+                    "image": "assets/VehicleTypes/teslamodely.webp"
+                }
+            ]
+        }   
 }
