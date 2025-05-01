@@ -99,10 +99,16 @@
     .why-us-section {
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .stats-section {
-        gap: 10px;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
     }
 
     .fundaments-section {
@@ -115,8 +121,8 @@
     .span-wrapper {
         align-items: center;
         justify-content: center;
-        width: 70%;
         gap: 20px;
+        width: 500px;
     }
 
     .span-wrapper > svg {
