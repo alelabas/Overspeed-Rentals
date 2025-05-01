@@ -20,8 +20,8 @@ export function Footer () {
                         <ul className="contact-icons">
                             <a href="https://www.instagram.com/overspeedrentals/" target="_blank" className="button-icons"><li><FaInstagram /></li></a>
                             <a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="button-icons"><li><FaWhatsapp /></li></a>
-                            <a href="" className="button-icons"><li><FiMessageCircle /></li></a>
-                            <a href="" className="button-icons"><li><MdEmail /></li></a>
+                            <a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="button-icons"><li><FiMessageCircle /></li></a>
+                            <a href="mailto:labastiealejandro@gmail.com" className="button-icons"><li><MdEmail /></li></a>
                         </ul>
                     </div>
                     <div className="content-wrap">

@@ -7,7 +7,7 @@
     z-index: 10;
     animation: adjust-header linear both;
     animation-timeline: scroll();
-    animation-range: 0 100px;
+    animation-range: 0 150px;
     transition: all 0.4s ease-in;
 }
 
@@ -28,6 +28,15 @@
     right: 20px;
     display: flex;
     gap: 10px;
+    padding: 10px;
+}
+
+.language-buttons select {
+    padding: 5px;
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
 }
 
 .logo-container > a > img {
@@ -92,20 +101,20 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        width: fit-content; /* Added this line */
+        width: fit-content; 
     }
 
     .logo-container > a {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: auto; /* Added this line */
+        width: auto; 
     }
 
     .logo-container > a > img {
         width: 150px;
         height: auto;
-        object-fit: contain; /* Added this line */
+        object-fit: contain;
     }
 
     .language-buttons {
@@ -120,19 +129,15 @@
     }
 
     .language-buttons select {
-        padding: 5px;
+        padding: 2px;
         border-radius: 4px;
-        width: 90px;
+        width: 75px;
         height: 30px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .language-buttons select option {
-        width: 0px;
-        font-size: 14px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        font-size: 10px;
     }
 
     @keyframes adjust-header {
@@ -146,7 +151,4 @@
             transform: translateX(-50%);
         }
     }
-
-    /* Hide select during scroll animation */
-    
 }
