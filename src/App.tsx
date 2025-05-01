@@ -8,6 +8,7 @@ import { Vehicles } from './components/Vehicles/Vehicles'
 import { WhyUs } from './layouts/WhyUs/WhyUs'
 import React from 'react'
 import { Hero } from './components/Hero/Hero' 
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App(){
     return (
@@ -21,6 +22,7 @@ export default function App(){
             <Clients />
             <FAQs />
             <Footer />
+            <Analytics />
         </>
     )
 }
