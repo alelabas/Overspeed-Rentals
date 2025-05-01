@@ -50,7 +50,7 @@
     border-radius: 8px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .clients-section {
         display: flex;
         flex-direction: column;
@@ -65,7 +65,7 @@
 
     .clients-section-carousel {
         width: 100%;
-        margin-left: 0;  /* Remove left margin */
+        margin-left: 0;
         display: flex;
         justify-content: center;
     }

@@ -82,7 +82,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .services-container {
         display: flex;
         flex-flow: row wrap;

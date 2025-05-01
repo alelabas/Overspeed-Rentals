@@ -95,7 +95,7 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .why-us-section {
         background-repeat: no-repeat;
         background-size: cover;

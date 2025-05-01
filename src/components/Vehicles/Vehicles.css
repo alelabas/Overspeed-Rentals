@@ -75,7 +75,7 @@
     color: rgb(113, 113, 113);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .types-section {
         margin: 40px 0px;
     }
