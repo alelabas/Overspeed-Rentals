@@ -19,6 +19,7 @@ export function Gallery ( { vehicleImages, modalRef }: Props ) {
             <img
                 src={vehicleImages[0]} 
                 className="gallery-image"
+                alt="Vehicle images"
             />
 
             <h4 onClick={() => {

@@ -32,8 +32,8 @@ export function useCarousel( {children, slides} : CarouselProps ) {
                     slidesPerView: slides,
                     spaceBetween: 20
                 },
-                800: {
-                    slidesPerView: 1,
+                750: {
+                    slidesPerView: slides - 2,
                 },
                 0: {
                     slidesPerView: 1,

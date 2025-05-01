@@ -13,7 +13,7 @@ export function Vehicles () {
     const children: ReactNode = vehicleTypes.map(vehicle => (
         <SwiperSlide key={vehicle.id}>
             <div className="types-container">
-                <img src={vehicle.image} alt="Car Image" className="type-image" />
+                <img src={vehicle.image} alt={`${vehicle.type} Image`} className="type-image" />
                 <div className="type-inner-text">
                     <h3 className="type-title">{vehicle.type}</h3>
                     <p className="type-description">{vehicle.description}</p>

@@ -75,7 +75,8 @@
     animation-range: 0 100px;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) {
     .header {
         position: fixed;
         top: 0;

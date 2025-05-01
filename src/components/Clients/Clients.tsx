@@ -12,7 +12,7 @@ export function Clients () {
     const children = images.map( ( url, index ) => (
             <SwiperSlide key={index}>
                 <div className='image-container-carousel'>
-                    <img src={url} className='image-carousel'/>
+                    <img src={url} className='image-carousel' alt="Clients Images"/>
                 </div>
             </SwiperSlide>
         )

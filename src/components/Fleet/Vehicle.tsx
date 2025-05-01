@@ -84,7 +84,7 @@ export default function Vehicle({ vehicle }: {vehicle: Cars}) {
 								<TbAutomaticGearbox/>
 								<FormattedMessage id="app.fleet.vehicle.transmission" defaultMessage="Transmission"/>
 							</h4>
-							<a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" className="modal-button">
+							<a href="https://wa.me/+541164026530?text=Hola%20quiero%20mas%20informacion%20sobre%20alquilar%20un%20auto%20en%20Miami" target="_blank" rel="noreferrer" className="modal-button">
 								<FormattedMessage id="app.fleet.vehicle.contact" defaultMessage="Contact Us!" />
 							</a>
 						</div>

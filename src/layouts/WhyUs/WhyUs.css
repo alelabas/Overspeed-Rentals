@@ -95,12 +95,44 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 800px) {
+    .why-us-section {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .stats-section {
+        gap: 10px;
+    }
+
+    .fundaments-section {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .span-wrapper {
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        gap: 20px;
+    }
+
+    .span-wrapper > svg {
+        width: 25px;
+    }
+
+    .about-us-content {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .why-us-section {
         background-repeat: no-repeat;
         background-size: cover;
-
     }
 
     .stats-section {

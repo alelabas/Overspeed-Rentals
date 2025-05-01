@@ -246,6 +246,80 @@
     transform: translateY(5px);
 }
 
+@media screen and (max-width: 800px){
+    .fleet-section {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .fleet-card {
+        margin: 20px auto; 
+    }
+
+    .fleet-card:hover .button-view-more {
+        max-height: 100px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: none;
+    }
+
+    .button-view-more {
+        max-height: 100px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: none;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .dialog-modal {
+        width: 70%;
+        height: 700px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .gallery-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .gallery-container > img {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    .click-to-see-more {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+        text-align: center;
+        opacity: 1;
+        padding: 10px 20px;
+        z-index: 10;
+    }
+
+    .gallery-container:hover .click-to-see-more {
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+
+    .data-vehicle-wrapper {
+        width: 90%;
+    }    
+}
+
 @media screen and (max-width: 600px) {
 
     .fleet-section {
