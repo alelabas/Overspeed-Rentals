@@ -92,7 +92,6 @@
                 "assets/CarImages/vwPassat/vwpassat2.webp",
                 "assets/CarImages/vwPassat/vwpassat3.webp",
                 "assets/CarImages/vwPassat/vwpassat4.webp"
-
             ],
             "price" : 50,
             "passengers": 5,
@@ -108,7 +107,7 @@
             "year": 2019,
             "milleage": 43000,
             "images": [
-                "assets/CarImages/bmw220FL.webp",
+                "assets/CarImages/bmw220FL.webp"
             ],
             "price" : 140,
             "passengers": 4,
@@ -124,7 +123,7 @@
             "year": 2019,
             "milleage": 43000,
             "images": [
-                "assets/CarImages/bmwM235FL.jpg",
+                "assets/CarImages/bmwM235FL.jpg"
             ],
             "price" : 160,
             "passengers": 4,
@@ -140,7 +139,7 @@
             "year": 2019,
             "milleage": 43000,
             "images": [
-                "assets/CarImages/hondaPilotFL.webp",
+                "assets/CarImages/hondaPilotFL.webp"
             ],
             "price" : 100,
             "passengers": 7,
