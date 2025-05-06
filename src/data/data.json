@@ -109,10 +109,6 @@
             "milleage": 43000,
             "images": [
                 "assets/CarImages/bmw220FL.webp",
-                "assets/CarImages/mustang-rojo-2.webp",
-                "assets/CarImages/mustang-rojo-3.webp",
-                "assets/CarImages/mustang-rojo-4.webp"
-
             ],
             "price" : 140,
             "passengers": 4,
@@ -129,10 +125,6 @@
             "milleage": 43000,
             "images": [
                 "assets/CarImages/bmwM235FL.jpg",
-                "assets/CarImages/mustang-rojo-2.webp",
-                "assets/CarImages/mustang-rojo-3.webp",
-                "assets/CarImages/mustang-rojo-4.webp"
-
             ],
             "price" : 160,
             "passengers": 4,
@@ -149,10 +141,6 @@
             "milleage": 43000,
             "images": [
                 "assets/CarImages/hondaPilotFL.webp",
-                "assets/CarImages/mustang-rojo-2.webp",
-                "assets/CarImages/mustang-rojo-3.webp",
-                "assets/CarImages/mustang-rojo-4.webp"
-
             ],
             "price" : 100,
             "passengers": 7,
