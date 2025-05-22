@@ -45,6 +45,7 @@
 @media screen and (max-width: 1200px) {
     .hero-section {
         background-position: center;
+        height: 900px;
     }
 
     .hero-contact > h1 {

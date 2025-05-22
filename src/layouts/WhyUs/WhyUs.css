@@ -102,8 +102,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: center;    
     }
+
 
     .stats-section {
         gap: 20px;
@@ -131,6 +132,7 @@
 
     .about-us-content {
         width: 100%;
+        margin-bottom: 40px;
     }
 }
 
