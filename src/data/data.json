@@ -11,7 +11,9 @@
                 "assets/CarImages/mustangWhite/mustangblanco2.webp",
                 "assets/CarImages/mustangWhite/mustangblanco3.webp",
                 "assets/CarImages/mustangWhite/mustangblanco4.webp",
-                "assets/CarImages/mustangWhite/mustangblanco5.webp"
+                "assets/CarImages/mustangWhite/mustangblanco5.webp",
+                "assets/CarImages/mustangWhite/mustangblanco6.webp",
+                "assets/CarImages/mustangWhite/mustangblanco7.webp"
             ],
             "price" : 120,
             "passengers": 4,
@@ -29,9 +31,11 @@
             "images": [
                 "assets/CarImages/mustangRed/mustangrojo1.webp",
                 "assets/CarImages/mustangRed/mustangrojo2.webp",
+                "assets/CarImages/mustangRed/mustangrojo3.webp",
                 "assets/CarImages/mustangRed/mustangrojo4.webp",
                 "assets/CarImages/mustangRed/mustangrojo5.webp",
-                "assets/CarImages/mustangRed/mustangrojo6.webp"
+                "assets/CarImages/mustangRed/mustangrojo6.webp",
+                "assets/CarImages/mustangRed/mustangrojo7.webp"
 
             ],
             "price" : 120,
@@ -48,12 +52,12 @@
             "year": 2018,
             "milleage": 95000,
             "images" : [
-                "assets/CarImages/porscheMacan/porsche1.webp",
-                "assets/CarImages/porscheMacan/porsche3.webp",
-                "assets/CarImages/porscheMacan/porsche2.webp",
-                "assets/CarImages/porscheMacan/porsche4.webp",
-                "assets/CarImages/porscheMacan/porsche5.webp",
-                "assets/CarImages/porscheMacan/porsche6.webp"
+                "assets/CarImages/porscheMacan/porschemacan1.webp",
+                "assets/CarImages/porscheMacan/porschemacan3.webp",
+                "assets/CarImages/porscheMacan/porschemacan4.webp",
+                "assets/CarImages/porscheMacan/porschemacan5.webp",
+                "assets/CarImages/porscheMacan/porschemacan6.webp",
+                "assets/CarImages/porscheMacan/porschemacan7.webp"
             ],
             "price" : 130,
             "passengers": 5,
@@ -69,8 +73,8 @@
             "year": 2018,
             "milleage": 55000,
             "images" : [
-                "assets/CarImages/vwGolfGTI/vwgolf1.webp",
                 "assets/CarImages/vwGolfGTI/vwgolf2.webp",
+                "assets/CarImages/vwGolfGTI/vwgolf1.webp",
                 "assets/CarImages/vwGolfGTI/vwgolf3.webp",
                 "assets/CarImages/vwGolfGTI/vwgolf4.webp"
             ],
@@ -91,7 +95,10 @@
                 "assets/CarImages/vwPassat/vwpassat1.webp",
                 "assets/CarImages/vwPassat/vwpassat2.webp",
                 "assets/CarImages/vwPassat/vwpassat3.webp",
-                "assets/CarImages/vwPassat/vwpassat4.webp"
+                "assets/CarImages/vwPassat/vwpassat4.webp",
+                "assets/CarImages/vwPassat/vwpassat5.webp",
+                "assets/CarImages/vwPassat/vwpassat6.webp",
+                "assets/CarImages/vwPassat/vwpassat7.webp"
             ],
             "price" : 50,
             "passengers": 5,
@@ -219,50 +226,50 @@
             "esp" : [
                 {
                     "id": 0,
-                    "question" : "¿Cómo alquilo un coche?",
-                    "response" : "Puedes alquilar un coche desde nuestra página web o enviarnos un mensaje en nuestras redes sociales",
+                    "question" : "¿Cómo alquilo un vehículo?",
+                    "response" : "Puedes alquilar un vehículo desde nuestra página web o enviarnos un mensaje en nuestras redes sociales y Whatsapp    ",
                     "show" : false
                 },
                 {
                     "id": 1,
                     "question" : "¿Qué pasa si tengo un accidente?",
-                    "response" : "Siempre que alquilas un coche tienes que pagar un depósito. En caso de accidente, todos nuestros coches tienen seguro, así que solo perderás tu depósito",
+                    "response" : "Siempre que alquilas un vehículo tienes que pagar un depósito. En caso de accidente, todos nuestros coches tienen seguro, así que solo perderás tu depósito",
                     "show" : false
                 },
                 {
                     "id": 2,
                     "question" : "¿Cómo devuelvo el vehículo?",
-                    "response" : "Puedes acordar una ubicación de recogida o devolver el coche a nosotros. Lo único de lo que tienes que preocuparte es devolver el coche con el mismo nivel de combustible con el que lo recibiste",
+                    "response" : "Siempre al momento de rentar un vehículo se deberá de acordar fecha y horario de entrega y devolución. Al mismo tiempo siempre puedes acordar la devolución en aeropuerto, hoteles o mismo en una de nuestras sucursales en Miami.",
                     "show" : false
                 },
                 {
                     "id": 3,
-                    "question" : "¿Cómo funcionan los combos de alquiler?",
-                    "response" : "Digamos que llegaste a Miami con mucho equipaje que no cabe en un coche deportivo. Podemos organizar un cambio de coches por algunos días. El primer coche puede ser un SUV, que puedes usar durante los días que quieras y cuando quieras podemos organizar un cambio a otro coche",
+                    "question" : "¿Cómo funcionan los combos de renta?",
+                    "response" : "Siempre en tu viaje con nosotros, puede elegir entre mas de un vehículo en tu estadía. Puedes rentar un SUV y al cabo de unos días puedes cambiarlo por un convertible. Esto aplica para cualquier vehículo de nuestra flota.",
                     "show" : false
                 },
                 {
                     "id": 4,
-                    "question" : "¿Cómo pago?",
-                    "response" : "Una vez que hagas una reserva, se te cobrará una tarifa de reserva y cuando llegues aquí pagarás el resto, en cualquier método de pago que prefieras",
+                    "question" : "¿Cómo se hace el pago?",
+                    "response" : "Una vez elijas el tipo de vehículo para tu estadía, puedes reservar el mismo y abonar la de reserva o el total. Nuestros medios de pago son Efectivo (USD/$) / Transferencia / Tarjeta Crédito o Debito Puedes hacer el pago en Argentina o Estados Unidos.",
                     "show" : false
                 },
                 {
                     "id": 5,
                     "question" : "¿Necesito una licencia internacional para conducir en Miami?",
-                    "response" : "No. En el estado de Miami-Dade puedes conducir con la licencia de tu país, pero solo en Miami-Dade. Para otros estados debes preguntarnos",
+                    "response" : "No, en el estado de Miami-Dade puedes conducir con la licencia de tu país siempre y cuando este en vigencia. Para conducir en otros estados debes consultarnos.",
                     "show" : false
                 },
                 {
                     "id": 6,
                     "question" : "¿Necesito pagar un depósito?",
-                    "response" : "Sí. Tienes que pagar un depósito de $500, que te será devuelto una vez devuelvas el coche",
+                    "response" : "Es necesario pagar el deposito por daños menores que puedan generarse en nuestros vehículos, además de infracciones y otros. En caso de no generarse ningún tipo de gasto extra, el deposito sera reintegrado en su totalidad o parcialmente en caso de que si haya generado algún gasto de los ya mencionados.",
                     "show" : false
                 },
                 {
                     "id": 7,
                     "question" : "¿Qué pasa si me multan?",
-                    "response" : "Eres responsable de cualquier multa que recibas mientras conduces el coche. Te cobraremos el monto de la multa más una tarifa de $50",
+                    "response" : "Al conducir un vehículo eres responsable de cualquier infracción en la que incurras. La misma sera descontada del deposito mas una tarifa extra.",
                     "show" : false
                 }
             ]
@@ -320,13 +327,13 @@
                 {
                     "id": 1,
                     "type": "Económico Chico",
-                    "description": "Un coche pequeño, barato y económico perfecto para familias de 3 con poco equipaje",
+                    "description": "Un vehículo pequeño, barato y económico perfecto para familias de 3 con poco equipaje",
                     "image": "assets/VehicleTypes/kiario.webp"
                 },
                 {
                     "id": 2,
                     "type": "Económico Grande",
-                    "description": "Un coche grande, barato y económico perfecto para familias de 4 con algo de equipaje",
+                    "description": "Un vehículo grande, barato y económico perfecto para familias de 4 con algo de equipaje",
                     "image": "assets/VehicleTypes/vwpassat.webp"
                 },
                 {
@@ -339,7 +346,7 @@
                 {
                     "id": 4,
                     "type": "Coche Deportivo",
-                    "description": "Agrega un poco de emoción conduciendo un coche de gran aspecto y rendimiento para tus vacaciones",
+                    "description": "Agrega un poco de emoción conduciendo un vehículo de gran aspecto y rendimiento para tus vacaciones",
                     "image": "assets/VehicleTypes/vwgolfgti.webp" 
                 },
                 {
@@ -357,7 +364,7 @@
                 {
                     "id": 7,
                     "type": "Eléctrico",
-                    "description": "Un coche ecológico, moderno y barato, ideal para moverse por la ciudad de forma económica y tranquila",
+                    "description": "Un vehículo ecológico, moderno y barato, ideal para moverse por la ciudad de forma económica y tranquila",
                     "image": "assets/VehicleTypes/teslamodely.webp"
                 }
             ]
